@@ -6,3 +6,6 @@ build:
 
 clean:
 	rm -f *.o
+
+install:
+	cp TDengineLink ~/.Mathematica/Applications/

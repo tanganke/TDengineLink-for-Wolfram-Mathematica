@@ -223,7 +223,7 @@ static const char* evalstrs[] = {
 	"TDengineServerInfo::usage = \"TDengineServerInfo[TDengineDescript",
 	"or[id]] returns information of the server.\"",
 	(const char*)0,
-	"TDengineServerInfo::usage = \"TDengineClientInfo[]] returns infor",
+	"TDengineClientInfo::usage = \"TDengineClientInfo[]] returns infor",
 	"mation of the client.\"",
 	(const char*)0,
 	"EndPackage[]",

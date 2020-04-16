@@ -1,0 +1,3928 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[    183662,       3920]
+NotebookOptionsPosition[    176680,       3794]
+NotebookOutlinePosition[    177343,       3816]
+CellTagsIndexPosition[    177237,       3811]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"link", "=", 
+  RowBox[{"Install", "[", "\"\<TDengineLink\>\"", "]"}]}]], "Input",
+ CellChangeTimes->{{3.7959916311127872`*^9, 3.795991638166069*^9}, {
+  3.7959938256635313`*^9, 3.795993826659006*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"fd3dd59d-28c7-4a9f-819a-44f9499e6d3a"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["LinkObject",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    
+    TemplateBox[{
+      PaneSelectorBox[{False -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource[
+               "FEBitmaps", "SquarePlusIconMedium"]], 
+              ButtonFunction :> (Typeset`open$$ = True), Appearance -> None, 
+              Evaluator -> Automatic, Method -> "Preemptive"], 
+             Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                AbsoluteCurrentValue[Magnification]}]], 
+            GraphicsBox[{
+              Thickness[0.038461538461538464`], {
+               FaceForm[{
+                 GrayLevel[0.93], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{1, 4, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {
+                1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}}}, {{{
+                25.499999999999996`, 2.5}, {25.499999999999996`, 
+                1.3953100000000003`}, {24.604699999999998`, 
+                0.49999999999999994`}, {23.5, 0.49999999999999994`}, {2.5, 
+                0.49999999999999994`}, {1.3953100000000003`, 
+                0.49999999999999994`}, {0.49999999999999994`, 
+                1.3953100000000003`}, {0.49999999999999994`, 2.5}, {
+                0.49999999999999994`, 23.5}, {0.49999999999999994`, 
+                24.604699999999998`}, {1.3953100000000003`, 
+                25.499999999999996`}, {2.5, 25.499999999999996`}, {23.5, 
+                25.499999999999996`}, {24.604699999999998`, 
+                25.499999999999996`}, {25.499999999999996`, 
+                24.604699999999998`}, {25.499999999999996`, 23.5}, {
+                25.499999999999996`, 2.5}}}]}, {
+               FaceForm[{
+                 RGBColor[0.5, 0.5, 0.5], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{20.5426, 
+                19.116799999999998`}, {16.3832, 21.876199999999997`}, {
+                16.3832, 20.021499999999996`}, {6.930469999999999, 
+                20.021499999999996`}, {6.930469999999999, 
+                18.212100000000003`}, {16.3832, 18.212100000000003`}, {
+                16.3832, 16.357399999999995`}, {20.5426, 
+                19.116799999999998`}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{5.30508, 13.8391}, {
+                9.46445, 11.079700000000003`}, {9.46445, 
+                12.933999999999997`}, {18.917199999999998`, 
+                12.933999999999997`}, {18.917199999999998`, 14.7438}, {
+                9.46445, 14.7438}, {9.46445, 16.598}, {5.30508, 13.8391}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{5.30508, 13.8391}, {
+                9.46445, 11.079700000000003`}, {9.46445, 
+                12.933999999999997`}, {18.917199999999998`, 
+                12.933999999999997`}, {18.917199999999998`, 14.7438}, {
+                9.46445, 14.7438}, {9.46445, 16.598}, {5.30508, 13.8391}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0,
+                 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, CompressedData["
+1:eJxTTMoPSmVmYGBgBGIRIGYC4sIjUTVcAooO8+XdOPpnKDg8YkwNXuen7JA2
+W/qycJSgw5sbHEde31CB82PFhGf3n1V1aFVgVz0zR8oBrF9czWFHsFXE/9Wy
+Dje0Dj4qiFWDy7cVLYptDVKH65/g6Xbu0HMNOB9sn4I23H6w+SWacD5De8DS
+tDQNB7ldC/alskg4aD2+nx6joeFgnPFi/oMZog5B9vlaQa/UHao9k7f0KUhA
++D/UUPVbqML5jCB+oIpDzJHypGv8Eg4eGad3ikiqwM2T57H5LndPGW6eya7m
+GzMvKcH1o4cXABG3d/Y=
+                "]], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}, {0, 1, 0}}}, {{{14.163129999999999`, 
+                4.337966249999999}, {16.96813, 4.337966249999999}, {16.96813, 
+                5.047809999999999}, {14.98813, 5.047809999999999}, {14.98813, 
+                8.29796625}, {14.163129999999999`, 8.29796625}, {
+                14.163129999999999`, 4.337966249999999}}}]}}, Background -> 
+             GrayLevel[0.93], Axes -> False, AspectRatio -> 1, ImageSize -> 
+             Dynamic[{
+               Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                AbsoluteCurrentValue[Magnification]}], Frame -> True, 
+             FrameTicks -> None, FrameStyle -> Directive[
+               Thickness[Tiny], 
+               GrayLevel[0.7]]], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  StyleBox[
+                   PaneBox[
+                   "\"'/home/tak/.Mathematica/Applications/TDengineLink'\"", 
+                    ContentPadding -> False, FrameMargins -> 0, StripOnInput -> 
+                    True, BaselinePosition -> Baseline, 
+                    ImageSize -> {{1, 300}, Automatic}], LineBreakWithin -> 
+                   False], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Link mode: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["Listen", "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource[
+               "FEBitmaps", "SquareMinusIconMedium"]], 
+              ButtonFunction :> (Typeset`open$$ = False), Appearance -> None, 
+              Evaluator -> Automatic, Method -> "Preemptive"], 
+             Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                AbsoluteCurrentValue[Magnification]}]], 
+            GraphicsBox[{
+              Thickness[0.038461538461538464`], {
+               FaceForm[{
+                 GrayLevel[0.93], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{1, 4, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {
+                1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}}}, {{{
+                25.499999999999996`, 2.5}, {25.499999999999996`, 
+                1.3953100000000003`}, {24.604699999999998`, 
+                0.49999999999999994`}, {23.5, 0.49999999999999994`}, {2.5, 
+                0.49999999999999994`}, {1.3953100000000003`, 
+                0.49999999999999994`}, {0.49999999999999994`, 
+                1.3953100000000003`}, {0.49999999999999994`, 2.5}, {
+                0.49999999999999994`, 23.5}, {0.49999999999999994`, 
+                24.604699999999998`}, {1.3953100000000003`, 
+                25.499999999999996`}, {2.5, 25.499999999999996`}, {23.5, 
+                25.499999999999996`}, {24.604699999999998`, 
+                25.499999999999996`}, {25.499999999999996`, 
+                24.604699999999998`}, {25.499999999999996`, 23.5}, {
+                25.499999999999996`, 2.5}}}]}, {
+               FaceForm[{
+                 RGBColor[0.5, 0.5, 0.5], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{20.5426, 
+                19.116799999999998`}, {16.3832, 21.876199999999997`}, {
+                16.3832, 20.021499999999996`}, {6.930469999999999, 
+                20.021499999999996`}, {6.930469999999999, 
+                18.212100000000003`}, {16.3832, 18.212100000000003`}, {
+                16.3832, 16.357399999999995`}, {20.5426, 
+                19.116799999999998`}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{5.30508, 13.8391}, {
+                9.46445, 11.079700000000003`}, {9.46445, 
+                12.933999999999997`}, {18.917199999999998`, 
+                12.933999999999997`}, {18.917199999999998`, 14.7438}, {
+                9.46445, 14.7438}, {9.46445, 16.598}, {5.30508, 13.8391}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{5.30508, 13.8391}, {
+                9.46445, 11.079700000000003`}, {9.46445, 
+                12.933999999999997`}, {18.917199999999998`, 
+                12.933999999999997`}, {18.917199999999998`, 14.7438}, {
+                9.46445, 14.7438}, {9.46445, 16.598}, {5.30508, 13.8391}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0,
+                 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, CompressedData["
+1:eJxTTMoPSmVmYGBgBGIRIGYC4sIjUTVcAooO8+XdOPpnKDg8YkwNXuen7JA2
+W/qycJSgw5sbHEde31CB82PFhGf3n1V1aFVgVz0zR8oBrF9czWFHsFXE/9Wy
+Dje0Dj4qiFWDy7cVLYptDVKH65/g6Xbu0HMNOB9sn4I23H6w+SWacD5De8DS
+tDQNB7ldC/alskg4aD2+nx6joeFgnPFi/oMZog5B9vlaQa/UHao9k7f0KUhA
++D/UUPVbqML5jCB+oIpDzJHypGv8Eg4eGad3ikiqwM2T57H5LndPGW6eya7m
+GzMvKcH1o4cXABG3d/Y=
+                "]], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}, {0, 1, 0}}}, {{{14.163129999999999`, 
+                4.337966249999999}, {16.96813, 4.337966249999999}, {16.96813, 
+                5.047809999999999}, {14.98813, 5.047809999999999}, {14.98813, 
+                8.29796625}, {14.163129999999999`, 8.29796625}, {
+                14.163129999999999`, 4.337966249999999}}}]}}, Background -> 
+             GrayLevel[0.93], Axes -> False, AspectRatio -> 1, ImageSize -> 
+             Dynamic[{
+               Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                AbsoluteCurrentValue[Magnification]}], Frame -> True, 
+             FrameTicks -> None, FrameStyle -> Directive[
+               Thickness[Tiny], 
+               GrayLevel[0.7]]], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  PaneBox[
+                  "\"'/home/tak/.Mathematica/Applications/TDengineLink'\"", 
+                   ImageSize -> {{1, 500}, Automatic}, BaselinePosition -> 
+                   Baseline, ContentPadding -> False, FrameMargins -> 0, 
+                   StripOnInput -> True], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Link mode: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["Listen", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Link protocol: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"SharedMemory\"", "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  LinkObject["'/home/tak/.Mathematica/Applications/TDengineLink'", 309, 10],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{3.7959916385364437`*^9, 3.795993907971643*^9, 
+  3.795994431034706*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"0b9a7299-8e98-420b-b88b-43f977059f2a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "TDengineLink`*"}]], "Input",
+ CellChangeTimes->{{3.7959917061007*^9, 3.795991711132552*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"8ee8f8f7-7977-427b-b894-4db604190658"],
+
+Cell[BoxData[
+ StyleBox[
+  FrameBox[GridBox[{
+     {
+      DynamicModuleBox[{Typeset`open$$ = True}, 
+       PaneSelectorBox[{False->
+        ButtonBox[
+         RowBox[{
+          
+          DynamicBox[FEPrivate`FrontEndResource[
+           "FEBitmaps", "RightPointerOpener"]], " ", 
+          StyleBox["TDengineLink`", "InformationGridGroupHeader"]}],
+         Appearance->None,
+         BaseStyle->"InformationGridLink",
+         ButtonFunction:>FEPrivate`Set[Typeset`open$$, True],
+         Evaluator->Automatic,
+         Method->"Preemptive"], True->
+        PaneBox[GridBox[{
+           {
+            ButtonBox[
+             RowBox[{
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpener"],
+               ImageSizeCache->{10., {3., 7.}}], " ", 
+              StyleBox["TDengineLink`", "InformationGridGroupHeader"]}],
+             Appearance->None,
+             BaseStyle->"InformationGridLink",
+             ButtonFunction:>FEPrivate`Set[Typeset`open$$, False],
+             Evaluator->Automatic,
+             Method->"Preemptive"]},
+           {
+            PaneBox[GridBox[{
+               {
+                ButtonBox[
+                 StyleBox["db", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-8fe090ab-1dd1-46de-ad59-1e76460f6431", {
+                   "db", "TDengineLink`"}, False},
+                 ButtonNote->"TDengineLink`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["port", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-8fe090ab-1dd1-46de-ad59-1e76460f6431", {
+                   "port", "TDengineLink`"}, False},
+                 ButtonNote->"TDengineLink`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["TDengineConnect", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-8fe090ab-1dd1-46de-ad59-1e76460f6431", {
+                   "TDengineConnect", "TDengineLink`"}, False},
+                 ButtonNote->"TDengineLink`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["user", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-8fe090ab-1dd1-46de-ad59-1e76460f6431", {
+                   "user", "TDengineLink`"}, False},
+                 ButtonNote->"TDengineLink`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["id", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-8fe090ab-1dd1-46de-ad59-1e76460f6431", {
+                   "id", "TDengineLink`"}, False},
+                 ButtonNote->"TDengineLink`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["sqlstr", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-8fe090ab-1dd1-46de-ad59-1e76460f6431", {
+                   "sqlstr", "TDengineLink`"}, False},
+                 ButtonNote->"TDengineLink`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["TDengineDescriptor", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-8fe090ab-1dd1-46de-ad59-1e76460f6431", {
+                   "TDengineDescriptor", "TDengineLink`"}, False},
+                 ButtonNote->"TDengineLink`",
+                 Evaluator->Automatic], ""},
+               {
+                ButtonBox[
+                 StyleBox["ip", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-8fe090ab-1dd1-46de-ad59-1e76460f6431", {
+                   "ip", "TDengineLink`"}, False},
+                 ButtonNote->"TDengineLink`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["TDengineClientInfo", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-8fe090ab-1dd1-46de-ad59-1e76460f6431", {
+                   "TDengineClientInfo", "TDengineLink`"}, False},
+                 ButtonNote->"TDengineLink`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["TDengineQuery", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-8fe090ab-1dd1-46de-ad59-1e76460f6431", {
+                   "TDengineQuery", "TDengineLink`"}, False},
+                 ButtonNote->"TDengineLink`",
+                 Evaluator->Automatic], ""},
+               {
+                ButtonBox[
+                 StyleBox["pass", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-8fe090ab-1dd1-46de-ad59-1e76460f6431", {
+                   "pass", "TDengineLink`"}, False},
+                 ButtonNote->"TDengineLink`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["TDengineClose", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-8fe090ab-1dd1-46de-ad59-1e76460f6431", {
+                   "TDengineClose", "TDengineLink`"}, False},
+                 ButtonNote->"TDengineLink`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["TDengineServerInfo", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-8fe090ab-1dd1-46de-ad59-1e76460f6431", {
+                   "TDengineServerInfo", "TDengineLink`"}, False},
+                 ButtonNote->"TDengineLink`",
+                 Evaluator->Automatic], ""}
+              },
+              DefaultBaseStyle->"Text",
+              
+              GridBoxAlignment->{
+               "Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+              GridBoxItemSize->{"Columns" -> {{
+                   Scaled[0.2375]}}}],
+             ImageMargins->{{10, 0}, {0, 2}}]}
+          },
+          GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}],
+         FrameMargins->{{0, 0}, {8, 0}}]}, Dynamic[Typeset`open$$],
+        ImageSize->Automatic]]}
+    },
+    GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+    GridBoxDividers->{"ColumnsIndexed" -> {{False}}, "RowsIndexed" -> {}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.5599999999999999]}, 
+        Offset[0.27999999999999997`]}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.8]}, 
+        Offset[0.2]}}],
+   BaseStyle->"InformationTitleFrame"], "InformationGridPlain"]], "Output",
+ CellChangeTimes->{3.795991712306785*^9, 3.795994433232156*^9},
+ CellLabel->"Out[2]=",ExpressionUUID->"31f7b750-1215-44b2-b1b0-e68f5e0fcca9"],
+
+Cell[BoxData[
+ InterpretationBox[
+  StyleBox[
+   FrameBox[
+    DynamicModuleBox[{System`InformationDump`open$$ = False, 
+     System`InformationDump`mouseOver$$ = False}, 
+     PaneSelectorBox[{True->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False,
+             BaseStyle -> None],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"TDengineServerInfo[TDengineDescriptor[id]] returns \
+information of the server.\"\>", "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          PaneBox[GridBox[{
+             {
+              
+              DynamicModuleBox[{System`InformationDump`open$$ = {
+               False, False, False, False, False, False, False, False, False, 
+                False, False, False}}, 
+               StyleBox[GridBox[{
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Definitions\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Definitions\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Definitions", "Tooltip"]& ], GridBox[{
+                    {
+                    RowBox[{
+                    RowBox[{"TDengineServerInfo", "[", 
+                    RowBox[{"TDengineDescriptor", "[", "id_Integer", "]"}], 
+                    "]"}], ":=", 
+                    RowBox[{"ExternalCall", "[", 
+                    RowBox[{
+                    RowBox[{"LinkObject", "[", 
+                    
+                    RowBox[{"\<\"'/home/tak/.Mathematica/Applications/\
+TDengineLink'\"\>", ",", "309", ",", "10"}], "]"}], ",", 
+                    RowBox[{"CallPacket", "[", 
+                    RowBox[{"3", ",", 
+                    RowBox[{"{", "id", "}"}]}], "]"}]}], "]"}]}]}
+                    },
+                    DefaultBaseStyle->"Column",
+                    GridBoxAlignment->{"Columns" -> {{Left}}},
+                    
+                    GridBoxItemSize->{
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Full Name\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"FullName\"",
+                    TooltipStyle->"TextStyling"],
+                    
+                    Annotation[#, "FullName", 
+                    "Tooltip"]& ], "\<\"TDengineLink`TDengineServerInfo\"\>"}
+                 },
+                 AutoDelete->False,
+                 GridBoxAlignment->{"Columns" -> {Right, Left}},
+                 GridBoxDividers->None,
+                 GridBoxItemSize->{"Columns" -> {Automatic, Automatic}},
+                 GridBoxSpacings->{"Columns" -> {
+                    Offset[0.27999999999999997`], {
+                    Offset[0.5599999999999999]}, 
+                    Offset[0.27999999999999997`]}, "Rows" -> {
+                    Offset[0.2], {
+                    Offset[0.8]}, 
+                    Offset[0.2]}}], "DialogStyle",
+                StripOnInput->False],
+               DynamicModuleValues:>{}]}
+            },
+            DefaultBaseStyle->"Column",
+            GridBoxAlignment->{"Columns" -> {{Left}}},
+            GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
+            
+            GridBoxItemSize->{
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+            GridBoxSpacings->{"Columns" -> {
+                Offset[0.27999999999999997`], {
+                 Offset[0.5599999999999999]}, 
+                Offset[0.27999999999999997`]}, "Rows" -> {
+                Offset[0.2], {
+                 Offset[3.6]}, 
+                Offset[0.2]}}],
+           FrameMargins->6], ""},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpener"]], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpenerHot"]]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, False],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"], False->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"TDengineServerInfo[TDengineDescriptor[id]] returns \
+information of the server.\"\>", "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpener"],
+               ImageSizeCache->{10., {3., 7.}}], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpenerHot"],
+               ImageSizeCache->{10., {3., 7.}}]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, True],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"]}, Dynamic[System`InformationDump`open$$],
+      BaselinePosition->Baseline,
+      FrameMargins->0,
+      ImageSize->Automatic],
+     DynamicModuleValues:>{}],
+    BaseStyle->"InformationGridFrame",
+    StripOnInput->False], "InformationGridPlain",
+   StripOnInput->False],
+  InformationData[
+   Association[
+   "ObjectType" -> "Symbol", "Usage" -> 
+    "TDengineServerInfo[TDengineDescriptor[id]] returns information of the \
+server.", "Documentation" -> None, "OwnValues" -> None, "UpValues" -> None, 
+    "DownValues" -> 
+    Information`InformationValueForm[
+     DownValues, TDengineLink`TDengineServerInfo, {
+      TDengineLink`TDengineServerInfo[
+         TDengineLink`TDengineDescriptor[
+          Pattern[TDengineLink`id, 
+           Blank[Integer]]]] :> ExternalCall[
+         LinkObject[
+         "'/home/tak/.Mathematica/Applications/TDengineLink'", 309, 10], 
+         CallPacket[3, {TDengineLink`id}]]}], "SubValues" -> None, 
+    "DefaultValues" -> None, "NValues" -> None, "FormatValues" -> None, 
+    "Options" -> None, "Attributes" -> {}, "FullName" -> 
+    "TDengineLink`TDengineServerInfo"], False]]], "Print",
+ CellTags->
+  "Info-8fe090ab-1dd1-46de-ad59-1e76460f6431",ExpressionUUID->"cd3c5ecf-177a-\
+4285-9f0e-48b8c256aa8a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["examples", "Subsection",
+ CellChangeTimes->{
+  3.7959937965446787`*^9},ExpressionUUID->"709c128d-a9eb-45f6-840d-\
+fa84f0c58347"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TDengineClientInfo", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.795992728183134*^9, 3.795992732624168*^9}},
+ CellLabel->"In[44]:=",ExpressionUUID->"95e8f7fb-6c82-424f-8568-75b6d9f613f0"],
+
+Cell[BoxData["\<\"1.6.5.7\"\>"], "Output",
+ CellChangeTimes->{3.795992733807969*^9},
+ CellLabel->"Out[44]=",ExpressionUUID->"4c73f29d-eb05-46e0-a531-18afe8f27873"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"db", "=", 
+  RowBox[{"TDengineConnect", "[", 
+   RowBox[{
+   "\"\<localhost\>\"", ",", "\"\<root\>\"", ",", "\"\<taosdata\>\"", ",", 
+    "\"\<eeg\>\"", ",", "6020"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.795991693781007*^9, 3.7959917383183393`*^9}},
+ CellLabel->"In[34]:=",ExpressionUUID->"427db6ee-758c-43b6-b5a0-d347587b7f5c"],
+
+Cell[BoxData[
+ RowBox[{"TDengineDescriptor", "[", "0", "]"}]], "Output",
+ CellChangeTimes->{3.795991727130212*^9, 3.795991774675757*^9, 
+  3.795992519315823*^9},
+ CellLabel->"Out[34]=",ExpressionUUID->"56a2a964-aa46-4729-adb2-8889bada4bc5"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TDengineServerInfo", "[", "db", "]"}]], "Input",
+ CellChangeTimes->{{3.7959927659799423`*^9, 3.795992770089674*^9}},
+ CellLabel->"In[45]:=",ExpressionUUID->"652cb5ad-fa84-4eed-b3c2-23fc3fe3059a"],
+
+Cell[BoxData["\<\"1.6.5.7\"\>"], "Output",
+ CellChangeTimes->{3.795992776652285*^9},
+ CellLabel->"Out[45]=",ExpressionUUID->"94d2ac4b-7c76-4af4-a138-4106d222d28c"]
+}, Open  ]],
+
+Cell["SHOW DATABASES", "Item",
+ CellChangeTimes->{{3.795992606625124*^9, 
+  3.795992613521821*^9}},ExpressionUUID->"019c1770-1378-4a38-b68a-\
+9e2f0e279728"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Dataset", "@", 
+  RowBox[{"TDengineQuery", "[", 
+   RowBox[{"db", ",", "\"\<SHOW DATABASES\>\""}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.79599256779138*^9, 3.795992582788437*^9}},
+ CellLabel->"In[42]:=",ExpressionUUID->"17eb06fb-f823-4b37-bb99-13cfcb7c2502"],
+
+Cell[BoxData[
+ TagBox[
+  TagBox[
+   DynamicModuleBox[{TypeSystem`NestedGrid`PackagePrivate`$state$$ = 
+    Association[
+    "InitialData" -> 
+     Association[
+      "ColumnName" -> {
+        "name", "created time", "ntables", "vgroups", "replica", "days", 
+         "keep1,keep2,keep(D)", "tables", "rows", "cache(b)", "ablocks", 
+         "tblocks", "ctime(s)", "clog", "comp", "time precision", "status"}, 
+       "ColumnType" -> {
+        "CString", "TimeStamp", "Integer32", "Integer32", "Integer16", 
+         "Integer16", "CString", "Integer32", "Integer32", "Integer32", 
+         "Real32", "Integer16", "Integer32", "Integer8", "Integer8", 
+         "CString", "CString"}, 
+       "Data" -> {{
+         "eeg", 1586927527260, 1, 1, 1, 10, "3650,3650,3650", 1000, 4096, 
+          16384, 4., 50, 3600, 1, 2, "ms", "ready"}, {
+         "log", 1586925561303, 4, 1, 1, 10, "30,30,30", 32, 1024, 2048, 2., 
+          32, 3600, 1, 2, "us", "ready"}}], "InitialShape" -> 
+     TypeSystem`PackageScope`DocumentShape[
+       Association[{"ColumnName"} -> 
+        TypeSystem`PackageScope`ElidedShape[1], {"ColumnType"} -> 
+        TypeSystem`PackageScope`ElidedShape[1], {"Data"} -> 
+        TypeSystem`PackageScope`Limited[
+          TypeSystem`PackageScope`ColumnShape[
+           TypeSystem`PackageScope`ElidedShape[1]], 2, 
+          DirectedInfinity[1], {
+           TypeSystem`NestedGrid`PackagePrivate`$docPath["Data"], All}]], 1], 
+     "InitialType" -> TypeSystem`Struct[{"ColumnName", "ColumnType", "Data"}, {
+        TypeSystem`Vector[
+         TypeSystem`Atom[String], 17], 
+        TypeSystem`Vector[
+         TypeSystem`Atom[
+          TypeSystem`Enumeration[
+          "CString", "Integer16", "Integer32", "Integer8", "Real32", 
+           "TimeStamp"]], 17], 
+        TypeSystem`Vector[
+         TypeSystem`Vector[TypeSystem`AnyType, 17], 2]}], "Meta" -> 
+     Association["ID" -> 98737201665927], "RowTarget" -> 20, "ColumnTarget" -> 
+     10, "Shape" -> TypeSystem`PackageScope`DocumentShape[
+       Association[{"ColumnName"} -> 
+        TypeSystem`PackageScope`ElidedShape[1], {"ColumnType"} -> 
+        TypeSystem`PackageScope`ElidedShape[1], {"Data"} -> 
+        TypeSystem`PackageScope`Limited[
+          TypeSystem`PackageScope`ColumnShape[
+           TypeSystem`PackageScope`ElidedShape[1]], 2, 
+          DirectedInfinity[1], {
+           TypeSystem`NestedGrid`PackagePrivate`$docPath["Data"], All}]], 1], 
+     "Type" -> TypeSystem`Struct[{"ColumnName", "ColumnType", "Data"}, {
+        TypeSystem`Vector[
+         TypeSystem`Atom[String], 17], 
+        TypeSystem`Vector[
+         TypeSystem`Atom[
+          TypeSystem`Enumeration[
+          "CString", "Integer16", "Integer32", "Integer8", "Real32", 
+           "TimeStamp"]], 17], 
+        TypeSystem`Vector[
+         TypeSystem`Vector[TypeSystem`AnyType, 17], 2]}], "Path" -> {}, 
+     "BaseIndices" -> {}, "DisplayedRowCount" -> 20, "DisplayedColumnCount" -> 
+     10, "DataRowCount" -> 3, "DataColumnCount" -> 1, "SortPaths" -> {}, 
+     "SortDirections" -> {}, "HiddenItemsMap" -> Null, "UpdateType" -> 1], 
+    TypeSystem`NestedGrid`PackagePrivate`$outputID$$, 
+    TypeSystem`NestedGrid`PackagePrivate`$path$$ = {}, 
+    TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 1, 
+    TypeSystem`NestedGrid`PackagePrivate`$hPos$$ = 1, 
+    TypeSystem`NestedGrid`PackagePrivate`$grid$$ = 
+    DynamicModule[{
+     TypeSystem`NestedGrid`PackagePrivate`renderedGrid = Deploy[
+        Style[
+         Grid[{{
+            Item[
+             Pane[
+              Annotation[
+               EventHandler[
+                MouseAppearance[
+                 Mouseover["ColumnName", 
+                  Style[
+                  "ColumnName", FontColor -> 
+                   RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                TypeSystem`NestedGrid`PackagePrivate`updateState[
+                 TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
+                   Key["ColumnName"]}, 1]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["ColumnName"]}, "ColumnHeader", False], "Mouse"], 
+              ImageSize -> {{1, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], Background -> 
+             GrayLevel[0.95], Alignment -> {Left, Baseline}], 
+            Item[
+             Pane[
+              Annotation[
+               EventHandler[
+                MouseAppearance[
+                 Mouseover[
+                  Row[{"  { ", 
+                    Subscript["\[Ellipsis]", 17], " }  "}], 
+                  Style[
+                   Row[{"  { ", 
+                    Subscript["\[Ellipsis]", 17], " }  "}], FontColor -> 
+                   RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                TypeSystem`NestedGrid`PackagePrivate`updateState[
+                 TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
+                   Key["ColumnName"]}, 4]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["ColumnName"]}, "Item", False], "Mouse"], 
+              ImageMargins -> {{5, 3}, {4, 5}}], BaseStyle -> {
+               GrayLevel[0.5]}]}, {
+            Item[
+             Pane[
+              Annotation[
+               EventHandler[
+                MouseAppearance[
+                 Mouseover["ColumnType", 
+                  Style[
+                  "ColumnType", FontColor -> 
+                   RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                TypeSystem`NestedGrid`PackagePrivate`updateState[
+                 TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
+                   Key["ColumnType"]}, 1]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["ColumnType"]}, "ColumnHeader", False], "Mouse"], 
+              ImageSize -> {{1, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], Background -> 
+             GrayLevel[0.95], Alignment -> {Left, Baseline}], 
+            Item[
+             Pane[
+              Annotation[
+               EventHandler[
+                MouseAppearance[
+                 Mouseover[
+                  Row[{"  { ", 
+                    Subscript["\[Ellipsis]", 17], " }  "}], 
+                  Style[
+                   Row[{"  { ", 
+                    Subscript["\[Ellipsis]", 17], " }  "}], FontColor -> 
+                   RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                TypeSystem`NestedGrid`PackagePrivate`updateState[
+                 TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
+                   Key["ColumnType"]}, 4]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["ColumnType"]}, "Item", False], "Mouse"], 
+              ImageMargins -> {{5, 3}, {4, 5}}], BaseStyle -> {
+               GrayLevel[0.5]}]}, {
+            Item[
+             Pane[
+              Annotation[
+               EventHandler[
+                MouseAppearance[
+                 Mouseover["Data", 
+                  Style[
+                  "Data", FontColor -> 
+                   RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                TypeSystem`NestedGrid`PackagePrivate`updateState[
+                 TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
+                   Key["Data"]}, 1]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Data"]}, "ColumnHeader", False], "Mouse"], 
+              ImageSize -> {{1, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], Background -> 
+             GrayLevel[0.95], Alignment -> {Left, Center}], 
+            Item[
+             Pane[
+              Annotation[
+               EventHandler[
+                MouseAppearance[
+                 Mouseover[
+                  Row[{"  { ", 
+                    Subscript["\[Ellipsis]", 17], " }  "}], 
+                  Style[
+                   Row[{"  { ", 
+                    Subscript["\[Ellipsis]", 17], " }  "}], FontColor -> 
+                   RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                TypeSystem`NestedGrid`PackagePrivate`updateState[
+                 TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
+                   Key["Data"], 1}, 4]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Data"], 1}, "Item", False], "Mouse"], 
+              ImageMargins -> {{5, 3}, {4, 5}}], BaseStyle -> {
+               GrayLevel[0.5]}]}, {SpanFromAbove, 
+            Item[
+             Pane[
+              Annotation[
+               EventHandler[
+                MouseAppearance[
+                 Mouseover[
+                  Row[{"  { ", 
+                    Subscript["\[Ellipsis]", 17], " }  "}], 
+                  Style[
+                   Row[{"  { ", 
+                    Subscript["\[Ellipsis]", 17], " }  "}], FontColor -> 
+                   RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                TypeSystem`NestedGrid`PackagePrivate`updateState[
+                 TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
+                   Key["Data"], 2}, 4]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Data"], 2}, "Item", False], "Mouse"], 
+              ImageMargins -> {{5, 3}, {4, 5}}], BaseStyle -> {
+               GrayLevel[0.5]}]}}, 
+          BaseStyle -> {
+           ContextMenu -> 
+            Dynamic[TypeSystem`NestedGrid`PackagePrivate`$contextMenuTrigger; 
+              Which[TypeSystem`NestedGrid`PackagePrivate`$lastOutputID =!= 
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                 TypeSystem`NestedGrid`PackagePrivate`$outputID$$], {}, 
+                TypeSystem`NestedGrid`PackagePrivate`$contextMenuTrigger === 
+                TypeSystem`NestedGrid`PackagePrivate`$lastContextMenuTrigger, 
+                TypeSystem`NestedGrid`PackagePrivate`$lastContextMenu, True, 
+                TypeSystem`NestedGrid`PackagePrivate`$lastContextMenuTrigger = 
+                 TypeSystem`NestedGrid`PackagePrivate`$contextMenuTrigger; 
+                TypeSystem`NestedGrid`PackagePrivate`$lastContextMenu = 
+                 Block[{TypeSystem`NestedGrid`PackagePrivate`$globalScrollPos = \
+{TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$}}, 
+                   
+                   With[{TypeSystem`NestedGrid`PackagePrivate`lastPath$ = 
+                    TypeSystem`NestedGrid`PackagePrivate`$lastPath, 
+                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ = 
+                    TypeSystem`NestedGrid`PackagePrivate`$lastPathType, 
+                    TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$ = 
+                    
+                    TypeSystem`NestedGrid`PackagePrivate`$\
+lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`allHidden$ = 
+                    TypeSystem`NestedGrid`PackagePrivate`allHiddenQ[
+                    TypeSystem`NestedGrid`PackagePrivate`$lastPath, 
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
+                    TypeSystem`NestedGrid`PackagePrivate`anyHidden$ = 
+                    TypeSystem`NestedGrid`PackagePrivate`anyHiddenQ[
+                    TypeSystem`NestedGrid`PackagePrivate`$lastPath, 
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
+                    TypeSystem`NestedGrid`PackagePrivate`sortDirection$ = 
+                    TypeSystem`NestedGrid`PackagePrivate`columnSortDirection[
+                    TypeSystem`NestedGrid`PackagePrivate`$lastPath, 
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$[
+                    "SortPaths"], 
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$[
+                    "SortDirections"]], 
+                    TypeSystem`NestedGrid`PackagePrivate`haveData$ = Not[
+                    FailureQ[
+                    TypeSystem`NestedGrid`PackagePrivate`datasetInitialData[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$]]], 
+                    TypeSystem`NestedGrid`PackagePrivate`isKeyDummy$ = Not[
+                    FreeQ[
+                    TypeSystem`NestedGrid`PackagePrivate`$lastPath, Keys]]}, 
+                    Join[{
+                    If[
+                    Or[
+                    Not[TypeSystem`NestedGrid`PackagePrivate`haveData$], 
+                    Not[TypeSystem`NestedGrid`PackagePrivate`anyHidden$], 
+                    TypeSystem`NestedGrid`PackagePrivate`isKeyDummy$], 
+                    Nothing, 
+                    MenuItem[
+                    StringJoin["Show ", 
+                    Which[
+                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
+                    "Item", "", 
+                    TypeSystem`NestedGrid`PackagePrivate`allHidden$, 
+                    ToString[
+                    ReplaceAll[
+                    Last[TypeSystem`NestedGrid`PackagePrivate`lastPath$], 
+                    Key[
+                    Pattern[TypeSystem`NestedGrid`PackagePrivate`x, 
+                    Blank[]]] :> TypeSystem`NestedGrid`PackagePrivate`x]], 
+                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
+                    "RowHeader", "Row", 
+                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
+                    "ColumnHeader", "Column", True, ""]], 
+                    KernelExecute[
+                    TypeSystem`NestedGrid`PackagePrivate`updateHiddenItems[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][
+                    TypeSystem`NestedGrid`PackagePrivate`lastPath$, 
+                    "remove"]], MenuEvaluator -> Automatic]], 
+                    If[
+                    Or[
+                    Not[TypeSystem`NestedGrid`PackagePrivate`haveData$], 
+                    TypeSystem`NestedGrid`PackagePrivate`pathEmptyQ[
+                    TypeSystem`NestedGrid`PackagePrivate`$lastPath, 
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
+                    TypeSystem`NestedGrid`PackagePrivate`allHidden$, 
+                    TypeSystem`NestedGrid`PackagePrivate`isKeyDummy$], 
+                    Nothing, 
+                    MenuItem[
+                    StringJoin["Hide ", 
+                    Which[
+                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
+                    "Item", "", 
+                    TypeSystem`NestedGrid`PackagePrivate`allHidden$, 
+                    ToString[
+                    ReplaceAll[
+                    Last[TypeSystem`NestedGrid`PackagePrivate`lastPath$], 
+                    Key[
+                    Pattern[TypeSystem`NestedGrid`PackagePrivate`x, 
+                    Blank[]]] :> TypeSystem`NestedGrid`PackagePrivate`x]], 
+                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
+                    "RowHeader", "Row", 
+                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
+                    "ColumnHeader", "Column", True, ""]], 
+                    KernelExecute[
+                    TypeSystem`NestedGrid`PackagePrivate`updateHiddenItems[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][
+                    TypeSystem`NestedGrid`PackagePrivate`lastPath$, "add"]], 
+                    MenuEvaluator -> Automatic]], Delimiter}, 
+                    If[
+                    And[TypeSystem`NestedGrid`PackagePrivate`haveData$, 
+                    MatchQ[TypeSystem`NestedGrid`PackagePrivate`lastPathType$, 
+                    Alternatives["ColumnHeader", "KeyDummy"]], 
+                    TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$, 
+                    Not[TypeSystem`NestedGrid`PackagePrivate`allHidden$]], {
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`sortDirection$ =!= 
+                    "Ascending", 
+                    MenuItem["Sort", 
+                    KernelExecute[
+                    TypeSystem`NestedGrid`PackagePrivate`updateSort[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][
+                    TypeSystem`NestedGrid`PackagePrivate`lastPath$, 
+                    "Ascending"]], MenuEvaluator -> Automatic], Nothing], 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`sortDirection$ =!= 
+                    "Descending", 
+                    MenuItem["Reverse Sort", 
+                    KernelExecute[
+                    TypeSystem`NestedGrid`PackagePrivate`updateSort[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][
+                    TypeSystem`NestedGrid`PackagePrivate`lastPath$, 
+                    "Descending"]], MenuEvaluator -> Automatic], Nothing], 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`sortDirection$ =!= 
+                    None, 
+                    MenuItem["Unsort", 
+                    KernelExecute[
+                    TypeSystem`NestedGrid`PackagePrivate`updateSort[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][
+                    TypeSystem`NestedGrid`PackagePrivate`lastPath$, None]], 
+                    MenuEvaluator -> Automatic], Nothing], Delimiter}, {}], {
+                    MenuItem["Copy Position to Clipboard", 
+                    KernelExecute[
+                    TypeSystem`NestedGrid`PackagePrivate`toCurrentPosition[
+                    TypeSystem`NestedGrid`PackagePrivate`copyClip]], 
+                    MenuEvaluator -> Automatic], 
+                    MenuItem["Copy Data to Clipboard", 
+                    KernelExecute[
+                    TypeSystem`NestedGrid`PackagePrivate`toCurrentData[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`copyClip]], 
+                    MenuEvaluator -> Automatic], Delimiter, 
+                    MenuItem["Paste Position in New Cell", 
+                    KernelExecute[
+                    TypeSystem`NestedGrid`PackagePrivate`toCurrentPosition[
+                    TypeSystem`NestedGrid`PackagePrivate`cellPaste]], 
+                    MenuEvaluator -> Automatic], 
+                    MenuItem["Paste Data in New Cell", 
+                    KernelExecute[
+                    TypeSystem`NestedGrid`PackagePrivate`toCurrentData[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`cellPaste]], 
+                    MenuEvaluator -> Automatic]}]]]]], FontFamily -> 
+            "Verdana", FontSize -> 12}, Spacings -> {0, 0}, Alignment -> Left,
+           Dividers -> All, FrameStyle -> GrayLevel[0.7490196078431373], 
+          BaseStyle -> {FontFamily -> "Verdana", FontSize -> 12}], 
+         LineBreakWithin -> False, ContextMenu -> {}, NumberMarks -> False, 
+         ShowAutoStyles -> False]], 
+      TypeSystem`NestedGrid`PackagePrivate`initialQ = True}, 
+     Dynamic[
+      TypeSystem`NestedGrid`PackagePrivate`setupViewPath[
+      TypeSystem`NestedGrid`PackagePrivate`$path$$, If[
+         Not[TypeSystem`NestedGrid`PackagePrivate`initialQ], 
+         Module[{
+          TypeSystem`NestedGrid`PackagePrivate`tmpGrid$ = $Failed, 
+           TypeSystem`NestedGrid`PackagePrivate`tmpData$ = 
+           TypeSystem`NestedGrid`PackagePrivate`datasetData[
+            TypeSystem`NestedGrid`PackagePrivate`$state$$]}, 
+          TypeSystem`NestedGrid`PackagePrivate`tmpGrid$ = If[
+             FailureQ[TypeSystem`NestedGrid`PackagePrivate`tmpData$], 
+             TypeSystem`NestedGrid`PackagePrivate`renderedGrid, 
+             TypeSystem`NestedGrid`PackagePrivate`renderGrid[
+             TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+              TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+              TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+              TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+              TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+              TypeSystem`NestedGrid`PackagePrivate`localHold[
+              TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][
+             TypeSystem`NestedGrid`PackagePrivate`tmpData$]]; If[
+            Not[
+             FailureQ[TypeSystem`NestedGrid`PackagePrivate`tmpGrid$]], 
+            TypeSystem`NestedGrid`PackagePrivate`renderedGrid = 
+            TypeSystem`NestedGrid`PackagePrivate`tmpGrid$]; Null]]; 
+       TypeSystem`NestedGrid`PackagePrivate`initialQ = False; 
+       TypeSystem`NestedGrid`PackagePrivate`$vPos$$; 
+       TypeSystem`NestedGrid`PackagePrivate`$hPos$$; If[
+         FailureQ[TypeSystem`NestedGrid`PackagePrivate`renderedGrid], 
+         TypeSystem`SparseGrid[
+          TypeSystem`H["(data no longer present)"]], 
+         If[GeneralUtilities`$DebugMode, 
+          Row[{TypeSystem`NestedGrid`PackagePrivate`renderedGrid, "  ", 
+            TypeSystem`NestedGrid`PackagePrivate`formatState[
+            TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+             TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+             TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+             TypeSystem`NestedGrid`PackagePrivate`$hPos$$]}], 
+          TypeSystem`NestedGrid`PackagePrivate`renderedGrid]]], 
+      TrackedSymbols :> {
+       TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+        TypeSystem`NestedGrid`PackagePrivate`$hPos$$}], 
+     DynamicModuleValues :> {}], 
+    TypeSystem`NestedGrid`PackagePrivate`$topBar$$ = Dynamic[
+     TypeSystem`NestedGrid`PackagePrivate`makeFramedBar[
+      TypeSystem`PackageScope`SubViewPathbar[
+      TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+       TypeSystem`NestedGrid`PackagePrivate`updateState[
+       TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+        TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+        TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+        TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+        TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+        TypeSystem`NestedGrid`PackagePrivate`localHold[
+        TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]]], 
+     TrackedSymbols :> {TypeSystem`NestedGrid`PackagePrivate`$path$$}], 
+    TypeSystem`NestedGrid`PackagePrivate`$bottomBar$$ = Style[
+     Framed[
+      Dynamic[
+       Replace[
+       TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$, {
+        TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+           TypeSystem`NestedGrid`PackagePrivate`localHold[
+           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][Null, 
+           Blank[]] -> "", TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+           TypeSystem`NestedGrid`PackagePrivate`localHold[
+           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][
+           Pattern[TypeSystem`NestedGrid`PackagePrivate`path$, 
+            Blank[]], 
+           Pattern[TypeSystem`NestedGrid`PackagePrivate`pathType$, 
+            Blank[]], 
+           Pattern[TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$, 
+            Blank[]]] :> (
+          Increment[TypeSystem`NestedGrid`PackagePrivate`$contextMenuTrigger]; 
+          TypeSystem`NestedGrid`PackagePrivate`$lastPath = 
+           TypeSystem`NestedGrid`PackagePrivate`path$; 
+          TypeSystem`NestedGrid`PackagePrivate`$lastPathType = 
+           TypeSystem`NestedGrid`PackagePrivate`pathType$; 
+          TypeSystem`NestedGrid`PackagePrivate`$lastPathIsLeafHeader = 
+           TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$; 
+          TypeSystem`NestedGrid`PackagePrivate`$lastOutputID = 
+           TypeSystem`NestedGrid`PackagePrivate`localHold[
+            TypeSystem`NestedGrid`PackagePrivate`$outputID$$]; 
+          TypeSystem`NestedGrid`PackagePrivate`makePathTrail[
+           TypeSystem`NestedGrid`PackagePrivate`path$, 
+            TypeSystem`NestedGrid`PackagePrivate`makePathElements]), Null :> 
+         Spacer[10], Blank[] :> Spacer[10]}], 
+       TrackedSymbols :> {
+        TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$}], FrameStyle -> 
+      None, ImageMargins -> 0, FrameMargins -> 0, Alignment -> Top, 
+      ImageSize -> {Automatic, 15}], FontSize -> 1], 
+    TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = Null}, 
+    DynamicWrapperBox[
+     DynamicBox[ToBoxes[
+       Dataset`DatasetContent[
+       1, "Path" -> TypeSystem`NestedGrid`PackagePrivate`$path$$, "Grid" -> 
+        TypeSystem`NestedGrid`PackagePrivate`releaseLocalHold[
+         TypeSystem`NestedGrid`PackagePrivate`$grid$$], "State" -> 
+        TypeSystem`NestedGrid`PackagePrivate`$state$$, "VPos" -> 
+        Hold[TypeSystem`NestedGrid`PackagePrivate`$vPos$$], "HPos" -> 
+        Hold[TypeSystem`NestedGrid`PackagePrivate`$hPos$$], "TopBar" -> 
+        TypeSystem`NestedGrid`PackagePrivate`$topBar$$, "BottomBar" -> 
+        TypeSystem`NestedGrid`PackagePrivate`releaseLocalHold[
+         TypeSystem`NestedGrid`PackagePrivate`$bottomBar$$]], StandardForm],
+      ImageSizeCache->{161., {65.6328125, 71.3671875}},
+      TrackedSymbols:>{
+       TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+        TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
+     TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
+     MouseAnnotation[],
+     ImageSizeCache->{161., {65.6328125, 71.3671875}}],
+    BaseStyle->{LineBreakWithin -> False},
+    DynamicModuleValues:>{},
+    Initialization:>
+     Block[{$ContextPath = $ContextPath}, Needs["TypeSystem`"]; 
+      Needs["Dataset`"]; 
+      TypeSystem`NestedGrid`PackagePrivate`$outputID$$ = CreateUUID[]],
+    UnsavedVariables:>{TypeSystem`NestedGrid`PackagePrivate`$outputID$$}],
+   Deploy,
+   DefaultBaseStyle->"Deploy"],
+  Dataset`InterpretDataset[1],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{{3.7959925773375807`*^9, 3.795992583292069*^9}},
+ CellLabel->"Out[42]=",ExpressionUUID->"c53d1498-c0a7-4843-a1eb-c394392c0a9e"]
+}, Open  ]],
+
+Cell["SHOW TABLES", "Item",
+ CellChangeTimes->{{3.7959926096315393`*^9, 
+  3.7959926161430817`*^9}},ExpressionUUID->"fe95dc24-de25-4022-a2c5-\
+b90f1bcacc68"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TDengineQuery", "[", 
+  RowBox[{"db", ",", "\"\<SHOW TABLES\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.795992240380563*^9, 3.795992247108428*^9}},
+ CellLabel->"In[26]:=",ExpressionUUID->"3c6199f7-a0ae-4b8b-84cc-9c11594f1325"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"ColumnName\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"\<\"table_name\"\>", ",", "\<\"created_time\"\>", 
+      ",", "\<\"columns\"\>", ",", "\<\"stable\"\>"}], "}"}]}], ",", 
+   RowBox[{"\<\"ColumnType\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"\<\"CString\"\>", ",", "\<\"TimeStamp\"\>", 
+      ",", "\<\"Integer16\"\>", ",", "\<\"CString\"\>"}], "}"}]}], ",", 
+   RowBox[{"\<\"Data\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"{", 
+      RowBox[{"\<\"test\"\>", ",", "1586927604831", ",", "4", 
+       ",", "\<\"\"\>"}], "}"}], "}"}]}]}], "\[RightAssociation]"}]], "Output",\
+
+ CellChangeTimes->{3.795992247679696*^9},
+ CellLabel->"Out[26]=",ExpressionUUID->"066292d2-355b-4f71-8e52-f589c437a478"]
+}, Open  ]],
+
+Cell["SELECT", "Item",
+ CellChangeTimes->{{3.795992623436103*^9, 
+  3.795992627401329*^9}},ExpressionUUID->"eab7e977-6b7c-461f-ad74-\
+c837b9a271ee"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{"res", " ", "=", 
+    RowBox[{"TDengineQuery", "[", 
+     RowBox[{"db", ",", "\"\<SELECT * FROM test LIMIT 20\>\""}], "]"}]}], 
+   ")"}], "//", "Keys"}]], "Input",
+ CellChangeTimes->{{3.795991777160088*^9, 3.7959918227570972`*^9}, {
+  3.7959919618885107`*^9, 3.795991963774535*^9}, {3.795992506253229*^9, 
+  3.7959925129520807`*^9}},
+ CellLabel->"In[35]:=",ExpressionUUID->"5bdf74fe-e4e8-46ae-83c5-93b55b9d5f36"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"ColumnName\"\>", ",", "\<\"ColumnType\"\>", 
+   ",", "\<\"Data\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{{3.795991794590434*^9, 3.795991823381996*^9}, 
+   3.795991964590143*^9, {3.795992513252204*^9, 3.7959925205529413`*^9}},
+ CellLabel->"Out[35]=",ExpressionUUID->"8cc2268b-c769-473d-940e-94ee2a8cbc6d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Dataset", "[", "res", "]"}]], "Input",
+ CellChangeTimes->{{3.795992523396282*^9, 3.795992559530733*^9}},
+ CellLabel->"In[40]:=",ExpressionUUID->"9ed78c03-51a7-493c-93cf-26a28e54617b"],
+
+Cell[BoxData[
+ TagBox[
+  TagBox[
+   DynamicModuleBox[{TypeSystem`NestedGrid`PackagePrivate`$state$$ = 
+    Association[
+    "InitialData" -> 
+     Association[
+      "ColumnName" -> {"ts", "x1", "x2", "x3"}, 
+       "ColumnType" -> {"TimeStamp", "Real32", "Real32", "Real32"}, 
+       "Data" -> {{
+         1583056800000, 0.7674401998519897, 0.13939961791038513`, 
+          0.5469292998313904}, {
+         1583056800100, 0.985325038433075, 0.1257276087999344, 
+          0.5523709654808044}, {
+         1583056800150, 0.30088627338409424`, 0.16479529440402985`, 
+          0.4584592580795288}, {
+         1583056800200, 0.4204021990299225, 0.016246119514107704`, 
+          0.5457285642623901}, {
+         1583056800250, 0.04256065934896469, 0.8317364454269409, 
+          0.6456373929977417}, {
+         1583056800300, 0.15007589757442474`, 0.7488281726837158, 
+          0.008577638305723667}, {
+         1583056800350, 0.6374538540840149, 0.09102658927440643, 
+          0.49960532784461975`}, {
+         1583056800400, 0.3506952226161957, 0.9378415942192078, 
+          0.6662741899490356}, {
+         1583056800450, 0.9940853118896484, 0.9134725332260132, 
+          0.3972667455673218}, {
+         1583056800500, 0.867947518825531, 0.07159000635147095, 
+          0.5669829249382019}, {
+         1583056800550, 0.9372735619544983, 0.8635950684547424, 
+          0.2611077129840851}, {
+         1583056800600, 0.5976483821868896, 0.7447351813316345, 
+          0.12729471921920776`}, {
+         1583056800650, 0.28000640869140625`, 0.045621443539857864`, 
+          0.2920899987220764}, {
+         1583056800700, 0.7384656667709351, 0.46602362394332886`, 
+          0.30833613872528076`}, {
+         1583056800750, 0.2841942012310028, 0.5085842609405518, 
+          0.14007258415222168`}, {
+         1583056800800, 0.9298316240310669, 0.6586601734161377, 
+          0.8889007568359375}, {
+         1583056800850, 0.9384092688560486, 0.296114057302475, 
+          0.9799273610115051}, {
+         1583056800900, 0.43801456689834595`, 0.6468092799186707, 
+          0.9177689552307129}, {
+         1583056800950, 0.10428878664970398`, 0.6408946514129639, 
+          0.8312414288520813}, {
+         1583056801000, 0.5015555620193481, 0.5088421702384949, 
+          0.9028314352035522}}], "InitialShape" -> 
+     TypeSystem`PackageScope`DocumentShape[
+       Association[{"ColumnName"} -> 
+        TypeSystem`PackageScope`UnknownShape[False], {"ColumnType"} -> 
+        TypeSystem`PackageScope`UnknownShape[False], {"Data"} -> 
+        TypeSystem`PackageScope`ElidedShape[1]], 1], "InitialType" -> 
+     TypeSystem`Struct[{"ColumnName", "ColumnType", "Data"}, {
+        TypeSystem`Vector[
+         TypeSystem`Atom[String], 4], 
+        TypeSystem`Vector[
+         TypeSystem`Atom[
+          TypeSystem`Enumeration["Real32", "TimeStamp"]], 4], 
+        TypeSystem`Vector[
+         TypeSystem`Tuple[{
+           TypeSystem`Atom[Integer], 
+           TypeSystem`Atom[Real], 
+           TypeSystem`Atom[Real], 
+           TypeSystem`Atom[Real]}], 20]}], "Meta" -> 
+     Association["ID" -> 87853754537840], "RowTarget" -> 20, "ColumnTarget" -> 
+     10, "Shape" -> TypeSystem`PackageScope`DocumentShape[
+       Association[{"ColumnName"} -> 
+        TypeSystem`PackageScope`UnknownShape[False], {"ColumnType"} -> 
+        TypeSystem`PackageScope`UnknownShape[False], {"Data"} -> 
+        TypeSystem`PackageScope`ElidedShape[1]], 1], "Type" -> 
+     TypeSystem`Struct[{"ColumnName", "ColumnType", "Data"}, {
+        TypeSystem`Vector[
+         TypeSystem`Atom[String], 4], 
+        TypeSystem`Vector[
+         TypeSystem`Atom[
+          TypeSystem`Enumeration["Real32", "TimeStamp"]], 4], 
+        TypeSystem`Vector[
+         TypeSystem`Tuple[{
+           TypeSystem`Atom[Integer], 
+           TypeSystem`Atom[Real], 
+           TypeSystem`Atom[Real], 
+           TypeSystem`Atom[Real]}], 20]}], "Path" -> {}, "BaseIndices" -> {}, 
+     "DisplayedRowCount" -> 20, "DisplayedColumnCount" -> 10, "DataRowCount" -> 
+     3, "DataColumnCount" -> 1, "SortPaths" -> {}, "SortDirections" -> {}, 
+     "HiddenItemsMap" -> Null, "UpdateType" -> 1], 
+    TypeSystem`NestedGrid`PackagePrivate`$outputID$$, 
+    TypeSystem`NestedGrid`PackagePrivate`$path$$ = {}, 
+    TypeSystem`NestedGrid`PackagePrivate`$vPos$$ = 1, 
+    TypeSystem`NestedGrid`PackagePrivate`$hPos$$ = 1, 
+    TypeSystem`NestedGrid`PackagePrivate`$grid$$ = 
+    DynamicModule[{
+     TypeSystem`NestedGrid`PackagePrivate`renderedGrid = Deploy[
+        Style[
+         Grid[{{
+            Item[
+             Pane[
+              Annotation[
+               EventHandler[
+                MouseAppearance[
+                 Mouseover["ColumnName", 
+                  Style[
+                  "ColumnName", FontColor -> 
+                   RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                TypeSystem`NestedGrid`PackagePrivate`updateState[
+                 TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
+                   Key["ColumnName"]}, 1]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["ColumnName"]}, "ColumnHeader", False], "Mouse"], 
+              ImageSize -> {{1, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], Background -> 
+             GrayLevel[0.95], Alignment -> {Left, Baseline}], 
+            Item[
+             Pane[
+              Annotation[
+               EventHandler[
+                MouseAppearance[
+                 Mouseover[
+                  
+                  Style[{"ts", "x1", "x2", "x3"}, ShowStringCharacters -> 
+                   False], 
+                  Style[
+                   
+                   Style[{"ts", "x1", "x2", "x3"}, ShowStringCharacters -> 
+                    False], FontColor -> 
+                   RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                TypeSystem`NestedGrid`PackagePrivate`updateState[
+                 TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
+                   Key["ColumnName"]}, 4]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["ColumnName"]}, "Item", False], "Mouse"], 
+              ImageMargins -> {{5, 3}, {4, 5}}]]}, {
+            Item[
+             Pane[
+              Annotation[
+               EventHandler[
+                MouseAppearance[
+                 Mouseover["ColumnType", 
+                  Style[
+                  "ColumnType", FontColor -> 
+                   RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                TypeSystem`NestedGrid`PackagePrivate`updateState[
+                 TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
+                   Key["ColumnType"]}, 1]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["ColumnType"]}, "ColumnHeader", False], "Mouse"], 
+              ImageSize -> {{1, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], Background -> 
+             GrayLevel[0.95], Alignment -> {Left, Baseline}], 
+            Item[
+             Pane[
+              Annotation[
+               EventHandler[
+                MouseAppearance[
+                 Mouseover[
+                  
+                  Style[{"TimeStamp", "Real32", "Real32", "Real32"}, 
+                   ShowStringCharacters -> False], 
+                  Style[
+                   
+                   Style[{"TimeStamp", "Real32", "Real32", "Real32"}, 
+                    ShowStringCharacters -> False], FontColor -> 
+                   RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                TypeSystem`NestedGrid`PackagePrivate`updateState[
+                 TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
+                   Key["ColumnType"]}, 4]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["ColumnType"]}, "Item", False], "Mouse"], 
+              ImageMargins -> {{5, 3}, {4, 5}}]]}, {
+            Item[
+             Pane[
+              Annotation[
+               EventHandler[
+                MouseAppearance[
+                 Mouseover["Data", 
+                  Style[
+                  "Data", FontColor -> 
+                   RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                TypeSystem`NestedGrid`PackagePrivate`updateState[
+                 TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
+                   Key["Data"]}, 1]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Data"]}, "ColumnHeader", False], "Mouse"], 
+              ImageSize -> {{1, Full}, Automatic}, 
+              ImageMargins -> {{5, 3}, {4, 5}}], Background -> 
+             GrayLevel[0.95], Alignment -> {Left, Baseline}], 
+            Item[
+             Pane[
+              Annotation[
+               EventHandler[
+                MouseAppearance[
+                 Mouseover[
+                  Row[{"  { ", 
+                    Subscript["\[Ellipsis]", 20], " }  "}], 
+                  Style[
+                   Row[{"  { ", 
+                    Subscript["\[Ellipsis]", 20], " }  "}], FontColor -> 
+                   RGBColor[
+                    0.27450980392156865`, 0.5372549019607843, 
+                    0.792156862745098]]], "LinkHand"], {"MouseClicked", 1} :> 
+                TypeSystem`NestedGrid`PackagePrivate`updateState[
+                 TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                  TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`localHold[
+                   TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][{
+                   Key["Data"]}, 4]], 
+               TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][{
+                 Key["Data"]}, "Item", False], "Mouse"], 
+              ImageMargins -> {{5, 3}, {4, 5}}], BaseStyle -> {
+               GrayLevel[0.5]}]}}, 
+          BaseStyle -> {
+           ContextMenu -> 
+            Dynamic[TypeSystem`NestedGrid`PackagePrivate`$contextMenuTrigger; 
+              Which[TypeSystem`NestedGrid`PackagePrivate`$lastOutputID =!= 
+                TypeSystem`NestedGrid`PackagePrivate`localHold[
+                 TypeSystem`NestedGrid`PackagePrivate`$outputID$$], {}, 
+                TypeSystem`NestedGrid`PackagePrivate`$contextMenuTrigger === 
+                TypeSystem`NestedGrid`PackagePrivate`$lastContextMenuTrigger, 
+                TypeSystem`NestedGrid`PackagePrivate`$lastContextMenu, True, 
+                TypeSystem`NestedGrid`PackagePrivate`$lastContextMenuTrigger = 
+                 TypeSystem`NestedGrid`PackagePrivate`$contextMenuTrigger; 
+                TypeSystem`NestedGrid`PackagePrivate`$lastContextMenu = 
+                 Block[{TypeSystem`NestedGrid`PackagePrivate`$globalScrollPos = \
+{TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$}}, 
+                   
+                   With[{TypeSystem`NestedGrid`PackagePrivate`lastPath$ = 
+                    TypeSystem`NestedGrid`PackagePrivate`$lastPath, 
+                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ = 
+                    TypeSystem`NestedGrid`PackagePrivate`$lastPathType, 
+                    TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$ = 
+                    TypeSystem`NestedGrid`PackagePrivate`$\
+lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`allHidden$ = 
+                    TypeSystem`NestedGrid`PackagePrivate`allHiddenQ[
+                    TypeSystem`NestedGrid`PackagePrivate`$lastPath, 
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
+                    TypeSystem`NestedGrid`PackagePrivate`anyHidden$ = 
+                    TypeSystem`NestedGrid`PackagePrivate`anyHiddenQ[
+                    TypeSystem`NestedGrid`PackagePrivate`$lastPath, 
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
+                    TypeSystem`NestedGrid`PackagePrivate`sortDirection$ = 
+                    TypeSystem`NestedGrid`PackagePrivate`columnSortDirection[
+                    TypeSystem`NestedGrid`PackagePrivate`$lastPath, 
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$[
+                    "SortPaths"], 
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$[
+                    "SortDirections"]], 
+                    TypeSystem`NestedGrid`PackagePrivate`haveData$ = Not[
+                    FailureQ[
+                    TypeSystem`NestedGrid`PackagePrivate`datasetInitialData[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$]]], 
+                    TypeSystem`NestedGrid`PackagePrivate`isKeyDummy$ = Not[
+                    FreeQ[
+                    TypeSystem`NestedGrid`PackagePrivate`$lastPath, Keys]]}, 
+                    Join[{
+                    If[
+                    Or[
+                    Not[TypeSystem`NestedGrid`PackagePrivate`haveData$], 
+                    Not[TypeSystem`NestedGrid`PackagePrivate`anyHidden$], 
+                    TypeSystem`NestedGrid`PackagePrivate`isKeyDummy$], 
+                    Nothing, 
+                    MenuItem[
+                    StringJoin["Show ", 
+                    Which[
+                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
+                    "Item", "", 
+                    TypeSystem`NestedGrid`PackagePrivate`allHidden$, 
+                    ToString[
+                    ReplaceAll[
+                    Last[TypeSystem`NestedGrid`PackagePrivate`lastPath$], 
+                    Key[
+                    Pattern[TypeSystem`NestedGrid`PackagePrivate`x, 
+                    Blank[]]] :> TypeSystem`NestedGrid`PackagePrivate`x]], 
+                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
+                    "RowHeader", "Row", 
+                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
+                    "ColumnHeader", "Column", True, ""]], 
+                    KernelExecute[
+                    TypeSystem`NestedGrid`PackagePrivate`updateHiddenItems[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][
+                    TypeSystem`NestedGrid`PackagePrivate`lastPath$, 
+                    "remove"]], MenuEvaluator -> Automatic]], 
+                    If[
+                    Or[
+                    Not[TypeSystem`NestedGrid`PackagePrivate`haveData$], 
+                    TypeSystem`NestedGrid`PackagePrivate`pathEmptyQ[
+                    TypeSystem`NestedGrid`PackagePrivate`$lastPath, 
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$], 
+                    TypeSystem`NestedGrid`PackagePrivate`allHidden$, 
+                    TypeSystem`NestedGrid`PackagePrivate`isKeyDummy$], 
+                    Nothing, 
+                    MenuItem[
+                    StringJoin["Hide ", 
+                    Which[
+                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
+                    "Item", "", 
+                    TypeSystem`NestedGrid`PackagePrivate`allHidden$, 
+                    ToString[
+                    ReplaceAll[
+                    Last[TypeSystem`NestedGrid`PackagePrivate`lastPath$], 
+                    Key[
+                    Pattern[TypeSystem`NestedGrid`PackagePrivate`x, 
+                    Blank[]]] :> TypeSystem`NestedGrid`PackagePrivate`x]], 
+                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
+                    "RowHeader", "Row", 
+                    TypeSystem`NestedGrid`PackagePrivate`lastPathType$ == 
+                    "ColumnHeader", "Column", True, ""]], 
+                    KernelExecute[
+                    TypeSystem`NestedGrid`PackagePrivate`updateHiddenItems[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]][
+                    TypeSystem`NestedGrid`PackagePrivate`lastPath$, "add"]], 
+                    MenuEvaluator -> Automatic]], Delimiter}, 
+                    If[
+                    And[TypeSystem`NestedGrid`PackagePrivate`haveData$, 
+                    MatchQ[TypeSystem`NestedGrid`PackagePrivate`lastPathType$, 
+                    Alternatives["ColumnHeader", "KeyDummy"]], 
+                    TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$, 
+                    Not[TypeSystem`NestedGrid`PackagePrivate`allHidden$]], {
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`sortDirection$ =!= 
+                    "Ascending", 
+                    MenuItem["Sort", 
+                    KernelExecute[
+                    TypeSystem`NestedGrid`PackagePrivate`updateSort[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][
+                    TypeSystem`NestedGrid`PackagePrivate`lastPath$, 
+                    "Ascending"]], MenuEvaluator -> Automatic], Nothing], 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`sortDirection$ =!= 
+                    "Descending", 
+                    MenuItem["Reverse Sort", 
+                    KernelExecute[
+                    TypeSystem`NestedGrid`PackagePrivate`updateSort[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][
+                    TypeSystem`NestedGrid`PackagePrivate`lastPath$, 
+                    "Descending"]], MenuEvaluator -> Automatic], Nothing], 
+                    If[
+                    TypeSystem`NestedGrid`PackagePrivate`sortDirection$ =!= 
+                    None, 
+                    MenuItem["Unsort", 
+                    KernelExecute[
+                    TypeSystem`NestedGrid`PackagePrivate`updateSort[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`localHold[
+                    TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][
+                    TypeSystem`NestedGrid`PackagePrivate`lastPath$, None]], 
+                    MenuEvaluator -> Automatic], Nothing], Delimiter}, {}], {
+                    MenuItem["Copy Position to Clipboard", 
+                    KernelExecute[
+                    TypeSystem`NestedGrid`PackagePrivate`toCurrentPosition[
+                    TypeSystem`NestedGrid`PackagePrivate`copyClip]], 
+                    MenuEvaluator -> Automatic], 
+                    MenuItem["Copy Data to Clipboard", 
+                    KernelExecute[
+                    TypeSystem`NestedGrid`PackagePrivate`toCurrentData[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`copyClip]], 
+                    MenuEvaluator -> Automatic], Delimiter, 
+                    MenuItem["Paste Position in New Cell", 
+                    KernelExecute[
+                    TypeSystem`NestedGrid`PackagePrivate`toCurrentPosition[
+                    TypeSystem`NestedGrid`PackagePrivate`cellPaste]], 
+                    MenuEvaluator -> Automatic], 
+                    MenuItem["Paste Data in New Cell", 
+                    KernelExecute[
+                    TypeSystem`NestedGrid`PackagePrivate`toCurrentData[
+                    TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+                    TypeSystem`NestedGrid`PackagePrivate`cellPaste]], 
+                    MenuEvaluator -> Automatic]}]]]]], FontFamily -> 
+            "Verdana", FontSize -> 12}, Spacings -> {0, 0}, Alignment -> Left,
+           Dividers -> All, FrameStyle -> GrayLevel[0.7490196078431373], 
+          BaseStyle -> {FontFamily -> "Verdana", FontSize -> 12}], 
+         LineBreakWithin -> False, ContextMenu -> {}, NumberMarks -> False, 
+         ShowAutoStyles -> False]], 
+      TypeSystem`NestedGrid`PackagePrivate`initialQ = True}, 
+     Dynamic[
+      TypeSystem`NestedGrid`PackagePrivate`setupViewPath[
+      TypeSystem`NestedGrid`PackagePrivate`$path$$, If[
+         Not[TypeSystem`NestedGrid`PackagePrivate`initialQ], 
+         Module[{
+          TypeSystem`NestedGrid`PackagePrivate`tmpGrid$ = $Failed, 
+           TypeSystem`NestedGrid`PackagePrivate`tmpData$ = 
+           TypeSystem`NestedGrid`PackagePrivate`datasetData[
+            TypeSystem`NestedGrid`PackagePrivate`$state$$]}, 
+          TypeSystem`NestedGrid`PackagePrivate`tmpGrid$ = If[
+             FailureQ[TypeSystem`NestedGrid`PackagePrivate`tmpData$], 
+             TypeSystem`NestedGrid`PackagePrivate`renderedGrid, 
+             TypeSystem`NestedGrid`PackagePrivate`renderGrid[
+             TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+              TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+              TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+              TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+              TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+              TypeSystem`NestedGrid`PackagePrivate`localHold[
+              TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][
+             TypeSystem`NestedGrid`PackagePrivate`tmpData$]]; If[
+            Not[
+             FailureQ[TypeSystem`NestedGrid`PackagePrivate`tmpGrid$]], 
+            TypeSystem`NestedGrid`PackagePrivate`renderedGrid = 
+            TypeSystem`NestedGrid`PackagePrivate`tmpGrid$]; Null]]; 
+       TypeSystem`NestedGrid`PackagePrivate`initialQ = False; 
+       TypeSystem`NestedGrid`PackagePrivate`$vPos$$; 
+       TypeSystem`NestedGrid`PackagePrivate`$hPos$$; If[
+         FailureQ[TypeSystem`NestedGrid`PackagePrivate`renderedGrid], 
+         TypeSystem`SparseGrid[
+          TypeSystem`H["(data no longer present)"]], 
+         If[GeneralUtilities`$DebugMode, 
+          Row[{TypeSystem`NestedGrid`PackagePrivate`renderedGrid, "  ", 
+            TypeSystem`NestedGrid`PackagePrivate`formatState[
+            TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+             TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+             TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+             TypeSystem`NestedGrid`PackagePrivate`$hPos$$]}], 
+          TypeSystem`NestedGrid`PackagePrivate`renderedGrid]]], 
+      TrackedSymbols :> {
+       TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+        TypeSystem`NestedGrid`PackagePrivate`$hPos$$}], 
+     DynamicModuleValues :> {}], 
+    TypeSystem`NestedGrid`PackagePrivate`$topBar$$ = Dynamic[
+     TypeSystem`NestedGrid`PackagePrivate`makeFramedBar[
+      TypeSystem`PackageScope`SubViewPathbar[
+      TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+       TypeSystem`NestedGrid`PackagePrivate`updateState[
+       TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+        TypeSystem`NestedGrid`PackagePrivate`$path$$, 
+        TypeSystem`NestedGrid`PackagePrivate`$vPos$$, 
+        TypeSystem`NestedGrid`PackagePrivate`$hPos$$, 
+        TypeSystem`NestedGrid`PackagePrivate`$grid$$, 
+        TypeSystem`NestedGrid`PackagePrivate`localHold[
+        TypeSystem`NestedGrid`PackagePrivate`$outputID$$]]]], 
+     TrackedSymbols :> {TypeSystem`NestedGrid`PackagePrivate`$path$$}], 
+    TypeSystem`NestedGrid`PackagePrivate`$bottomBar$$ = Style[
+     Framed[
+      Dynamic[
+       Replace[
+       TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$, {
+        TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+           TypeSystem`NestedGrid`PackagePrivate`localHold[
+           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][Null, 
+           Blank[]] -> "", TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
+           TypeSystem`NestedGrid`PackagePrivate`localHold[
+           TypeSystem`NestedGrid`PackagePrivate`$outputID$$]][
+           Pattern[TypeSystem`NestedGrid`PackagePrivate`path$, 
+            Blank[]], 
+           Pattern[TypeSystem`NestedGrid`PackagePrivate`pathType$, 
+            Blank[]], 
+           Pattern[TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$, 
+            Blank[]]] :> (
+          Increment[TypeSystem`NestedGrid`PackagePrivate`$contextMenuTrigger]; 
+          TypeSystem`NestedGrid`PackagePrivate`$lastPath = 
+           TypeSystem`NestedGrid`PackagePrivate`path$; 
+          TypeSystem`NestedGrid`PackagePrivate`$lastPathType = 
+           TypeSystem`NestedGrid`PackagePrivate`pathType$; 
+          TypeSystem`NestedGrid`PackagePrivate`$lastPathIsLeafHeader = 
+           TypeSystem`NestedGrid`PackagePrivate`isLeafHeader$; 
+          TypeSystem`NestedGrid`PackagePrivate`$lastOutputID = 
+           TypeSystem`NestedGrid`PackagePrivate`localHold[
+            TypeSystem`NestedGrid`PackagePrivate`$outputID$$]; 
+          TypeSystem`NestedGrid`PackagePrivate`makePathTrail[
+           TypeSystem`NestedGrid`PackagePrivate`path$, 
+            TypeSystem`NestedGrid`PackagePrivate`makePathElements]), Null :> 
+         Spacer[10], Blank[] :> Spacer[10]}], 
+       TrackedSymbols :> {
+        TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$}], FrameStyle -> 
+      None, ImageMargins -> 0, FrameMargins -> 0, Alignment -> Top, 
+      ImageSize -> {Automatic, 15}], FontSize -> 1], 
+    TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = Null}, 
+    DynamicWrapperBox[
+     DynamicBox[ToBoxes[
+       Dataset`DatasetContent[
+       1, "Path" -> TypeSystem`NestedGrid`PackagePrivate`$path$$, "Grid" -> 
+        TypeSystem`NestedGrid`PackagePrivate`releaseLocalHold[
+         TypeSystem`NestedGrid`PackagePrivate`$grid$$], "State" -> 
+        TypeSystem`NestedGrid`PackagePrivate`$state$$, "VPos" -> 
+        Hold[TypeSystem`NestedGrid`PackagePrivate`$vPos$$], "HPos" -> 
+        Hold[TypeSystem`NestedGrid`PackagePrivate`$hPos$$], "TopBar" -> 
+        TypeSystem`NestedGrid`PackagePrivate`$topBar$$, "BottomBar" -> 
+        TypeSystem`NestedGrid`PackagePrivate`releaseLocalHold[
+         TypeSystem`NestedGrid`PackagePrivate`$bottomBar$$]], StandardForm],
+      ImageSizeCache->{311., {53.1328125, 58.8671875}},
+      TrackedSymbols:>{
+       TypeSystem`NestedGrid`PackagePrivate`$state$$, 
+        TypeSystem`NestedGrid`PackagePrivate`$grid$$}], 
+     TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
+     MouseAnnotation[],
+     ImageSizeCache->{311., {53.1328125, 58.8671875}}],
+    BaseStyle->{LineBreakWithin -> False},
+    DynamicModuleValues:>{},
+    Initialization:>
+     Block[{$ContextPath = $ContextPath}, Needs["TypeSystem`"]; 
+      Needs["Dataset`"]; 
+      TypeSystem`NestedGrid`PackagePrivate`$outputID$$ = CreateUUID[]],
+    UnsavedVariables:>{TypeSystem`NestedGrid`PackagePrivate`$outputID$$}],
+   Deploy,
+   DefaultBaseStyle->"Deploy"],
+  Dataset`InterpretDataset[1],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{{3.795992528924119*^9, 3.795992559987853*^9}},
+ CellLabel->"Out[40]=",ExpressionUUID->"7279d755-7990-48d5-9c2b-58cf496ed889"]
+}, Open  ]],
+
+Cell["create a table view.", "Text",
+ CellChangeTimes->{{3.795992826266305*^9, 
+  3.795992840071741*^9}},ExpressionUUID->"95f1f960-bb42-4b68-9aa2-\
+b64c856823f1"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TableForm", "[", 
+  RowBox[{
+   RowBox[{"res", "[", "\"\<Data\>\"", "]"}], ",", 
+   RowBox[{"TableHeadings", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"Automatic", ",", 
+      RowBox[{"res", "[", "\"\<ColumnName\>\"", "]"}]}], "}"}]}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.795991827791617*^9, 3.795991892962315*^9}},
+ CellLabel->"In[19]:=",ExpressionUUID->"2d5845c6-c5d1-4f20-b2ab-e1d6b5e91e50"],
+
+Cell[BoxData[
+ TagBox[
+  TagBox[GridBox[{
+     {
+      StyleBox["\[Null]",
+       ShowStringCharacters->False], 
+      TagBox["\<\"ts\"\>",
+       HoldForm], 
+      TagBox["\<\"x1\"\>",
+       HoldForm], 
+      TagBox["\<\"x2\"\>",
+       HoldForm], 
+      TagBox["\<\"x3\"\>",
+       HoldForm]},
+     {"1", "1583056800000", "0.7674401998519897`", "0.13939961791038513`", 
+      "0.5469292998313904`"},
+     {"2", "1583056800100", "0.985325038433075`", "0.1257276087999344`", 
+      "0.5523709654808044`"},
+     {"3", "1583056800150", "0.30088627338409424`", "0.16479529440402985`", 
+      "0.4584592580795288`"},
+     {"4", "1583056800200", "0.4204021990299225`", "0.016246119514107704`", 
+      "0.5457285642623901`"},
+     {"5", "1583056800250", "0.04256065934896469`", "0.8317364454269409`", 
+      "0.6456373929977417`"},
+     {"6", "1583056800300", "0.15007589757442474`", "0.7488281726837158`", 
+      "0.008577638305723667`"},
+     {"7", "1583056800350", "0.6374538540840149`", "0.09102658927440643`", 
+      "0.49960532784461975`"},
+     {"8", "1583056800400", "0.3506952226161957`", "0.9378415942192078`", 
+      "0.6662741899490356`"},
+     {"9", "1583056800450", "0.9940853118896484`", "0.9134725332260132`", 
+      "0.3972667455673218`"},
+     {"10", "1583056800500", "0.867947518825531`", "0.07159000635147095`", 
+      "0.5669829249382019`"},
+     {"11", "1583056800550", "0.9372735619544983`", "0.8635950684547424`", 
+      "0.2611077129840851`"},
+     {"12", "1583056800600", "0.5976483821868896`", "0.7447351813316345`", 
+      "0.12729471921920776`"},
+     {"13", "1583056800650", "0.28000640869140625`", "0.045621443539857864`", 
+      "0.2920899987220764`"},
+     {"14", "1583056800700", "0.7384656667709351`", "0.46602362394332886`", 
+      "0.30833613872528076`"},
+     {"15", "1583056800750", "0.2841942012310028`", "0.5085842609405518`", 
+      "0.14007258415222168`"},
+     {"16", "1583056800800", "0.9298316240310669`", "0.6586601734161377`", 
+      "0.8889007568359375`"},
+     {"17", "1583056800850", "0.9384092688560486`", "0.296114057302475`", 
+      "0.9799273610115051`"},
+     {"18", "1583056800900", "0.43801456689834595`", "0.6468092799186707`", 
+      "0.9177689552307129`"},
+     {"19", "1583056800950", "0.10428878664970398`", "0.6408946514129639`", 
+      "0.8312414288520813`"},
+     {"20", "1583056801000", "0.5015555620193481`", "0.5088421702384949`", 
+      "0.9028314352035522`"}
+    },
+    GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+    GridBoxDividers->{
+     "Columns" -> {False, True, {False}, False}, 
+      "Rows" -> {False, True, {False}, False}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[2.0999999999999996`]}, 
+        Offset[0.27999999999999997`]}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}}],
+   {OutputFormsDump`HeadedRows, OutputFormsDump`HeadedColumns}],
+  Function[BoxForm`e$, 
+   TableForm[
+   BoxForm`e$, 
+    TableHeadings -> {Automatic, {"ts", "x1", "x2", "x3"}}]]]], "Output",
+ CellChangeTimes->{{3.7959918411935863`*^9, 3.7959918564958897`*^9}, 
+   3.7959918936500473`*^9, 3.795991967110072*^9},
+ CellLabel->
+  "Out[19]//TableForm=",ExpressionUUID->"6e73faf6-d47f-40ab-a689-\
+186493abf226"]
+}, Open  ]],
+
+Cell[TextData[{
+ "convert ",
+ StyleBox["TimeStamp(Integer)",
+  FontSlant->"Italic"],
+ " to ",
+ StyleBox["DateObject.",
+  FontSlant->"Italic"]
+}], "Text",
+ CellChangeTimes->{{3.795992409013384*^9, 
+  3.7959924495497704`*^9}},ExpressionUUID->"768e9746-0ca8-4435-8557-\
+af90e381320b"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"FromUnixTime", "[", 
+    RowBox[{"#", "/", "1000"}], "]"}], "&"}], "/@", 
+  RowBox[{
+   RowBox[{"res", "[", "\"\<Data\>\"", "]"}], "[", 
+   RowBox[{"[", 
+    RowBox[{"All", ",", "1"}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.7959920363049097`*^9, 3.795992108046611*^9}},
+ CellLabel->"In[46]:=",ExpressionUUID->"d536d946-4dee-4c12-91ce-585f6523cbd2"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[{
+     RowBox[{"\"Sun 1 Mar 2020 18:00:00\"", 
+       StyleBox[
+        RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+          StyleBox["8.`", NumberMarks -> False, StripOnInput -> False]}], 
+        FontColor -> GrayLevel[0.5]]}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           
+           RowBox[{"2020", ",", "3", ",", "1", ",", "18", ",", "0", ",", 
+             "0.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", ",", 
+         "8.`"}], "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 1 Mar 2020 18:00:00\"", 
+       StyleBox[
+        RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+          StyleBox["8.`", NumberMarks -> False, StripOnInput -> False]}], 
+        FontColor -> GrayLevel[0.5]]}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           
+           RowBox[{"2020", ",", "3", ",", "1", ",", "18", ",", "0", ",", 
+             "0.09999990463256836`"}], "}"}], ",", "\"Instant\"", ",", 
+         "\"Gregorian\"", ",", "8.`"}], "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 1 Mar 2020 18:00:00\"", 
+       StyleBox[
+        RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+          StyleBox["8.`", NumberMarks -> False, StripOnInput -> False]}], 
+        FontColor -> GrayLevel[0.5]]}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           
+           RowBox[{"2020", ",", "3", ",", "1", ",", "18", ",", "0", ",", 
+             "0.15000009536743164`"}], "}"}], ",", "\"Instant\"", ",", 
+         "\"Gregorian\"", ",", "8.`"}], "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 1 Mar 2020 18:00:00\"", 
+       StyleBox[
+        RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+          StyleBox["8.`", NumberMarks -> False, StripOnInput -> False]}], 
+        FontColor -> GrayLevel[0.5]]}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           
+           RowBox[{"2020", ",", "3", ",", "1", ",", "18", ",", "0", ",", 
+             "0.19999980926513672`"}], "}"}], ",", "\"Instant\"", ",", 
+         "\"Gregorian\"", ",", "8.`"}], "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 1 Mar 2020 18:00:00\"", 
+       StyleBox[
+        RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+          StyleBox["8.`", NumberMarks -> False, StripOnInput -> False]}], 
+        FontColor -> GrayLevel[0.5]]}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           
+           RowBox[{"2020", ",", "3", ",", "1", ",", "18", ",", "0", ",", 
+             "0.25`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", ",", 
+         "8.`"}], "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 1 Mar 2020 18:00:00\"", 
+       StyleBox[
+        RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+          StyleBox["8.`", NumberMarks -> False, StripOnInput -> False]}], 
+        FontColor -> GrayLevel[0.5]]}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           
+           RowBox[{"2020", ",", "3", ",", "1", ",", "18", ",", "0", ",", 
+             "0.3000001907348633`"}], "}"}], ",", "\"Instant\"", ",", 
+         "\"Gregorian\"", ",", "8.`"}], "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 1 Mar 2020 18:00:00\"", 
+       StyleBox[
+        RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+          StyleBox["8.`", NumberMarks -> False, StripOnInput -> False]}], 
+        FontColor -> GrayLevel[0.5]]}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           
+           RowBox[{"2020", ",", "3", ",", "1", ",", "18", ",", "0", ",", 
+             "0.34999990463256836`"}], "}"}], ",", "\"Instant\"", ",", 
+         "\"Gregorian\"", ",", "8.`"}], "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 1 Mar 2020 18:00:00\"", 
+       StyleBox[
+        RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+          StyleBox["8.`", NumberMarks -> False, StripOnInput -> False]}], 
+        FontColor -> GrayLevel[0.5]]}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           
+           RowBox[{"2020", ",", "3", ",", "1", ",", "18", ",", "0", ",", 
+             "0.40000009536743164`"}], "}"}], ",", "\"Instant\"", ",", 
+         "\"Gregorian\"", ",", "8.`"}], "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 1 Mar 2020 18:00:00\"", 
+       StyleBox[
+        RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+          StyleBox["8.`", NumberMarks -> False, StripOnInput -> False]}], 
+        FontColor -> GrayLevel[0.5]]}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           
+           RowBox[{"2020", ",", "3", ",", "1", ",", "18", ",", "0", ",", 
+             "0.4499998092651367`"}], "}"}], ",", "\"Instant\"", ",", 
+         "\"Gregorian\"", ",", "8.`"}], "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 1 Mar 2020 18:00:00\"", 
+       StyleBox[
+        RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+          StyleBox["8.`", NumberMarks -> False, StripOnInput -> False]}], 
+        FontColor -> GrayLevel[0.5]]}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           
+           RowBox[{"2020", ",", "3", ",", "1", ",", "18", ",", "0", ",", 
+             "0.5`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", ",", 
+         "8.`"}], "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 1 Mar 2020 18:00:00\"", 
+       StyleBox[
+        RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+          StyleBox["8.`", NumberMarks -> False, StripOnInput -> False]}], 
+        FontColor -> GrayLevel[0.5]]}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           
+           RowBox[{"2020", ",", "3", ",", "1", ",", "18", ",", "0", ",", 
+             "0.5500001907348633`"}], "}"}], ",", "\"Instant\"", ",", 
+         "\"Gregorian\"", ",", "8.`"}], "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 1 Mar 2020 18:00:00\"", 
+       StyleBox[
+        RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+          StyleBox["8.`", NumberMarks -> False, StripOnInput -> False]}], 
+        FontColor -> GrayLevel[0.5]]}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           
+           RowBox[{"2020", ",", "3", ",", "1", ",", "18", ",", "0", ",", 
+             "0.5999999046325684`"}], "}"}], ",", "\"Instant\"", ",", 
+         "\"Gregorian\"", ",", "8.`"}], "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 1 Mar 2020 18:00:00\"", 
+       StyleBox[
+        RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+          StyleBox["8.`", NumberMarks -> False, StripOnInput -> False]}], 
+        FontColor -> GrayLevel[0.5]]}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           
+           RowBox[{"2020", ",", "3", ",", "1", ",", "18", ",", "0", ",", 
+             "0.6500000953674316`"}], "}"}], ",", "\"Instant\"", ",", 
+         "\"Gregorian\"", ",", "8.`"}], "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 1 Mar 2020 18:00:00\"", 
+       StyleBox[
+        RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+          StyleBox["8.`", NumberMarks -> False, StripOnInput -> False]}], 
+        FontColor -> GrayLevel[0.5]]}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           
+           RowBox[{"2020", ",", "3", ",", "1", ",", "18", ",", "0", ",", 
+             "0.6999998092651367`"}], "}"}], ",", "\"Instant\"", ",", 
+         "\"Gregorian\"", ",", "8.`"}], "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 1 Mar 2020 18:00:00\"", 
+       StyleBox[
+        RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+          StyleBox["8.`", NumberMarks -> False, StripOnInput -> False]}], 
+        FontColor -> GrayLevel[0.5]]}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           
+           RowBox[{"2020", ",", "3", ",", "1", ",", "18", ",", "0", ",", 
+             "0.75`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", ",", 
+         "8.`"}], "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 1 Mar 2020 18:00:00\"", 
+       StyleBox[
+        RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+          StyleBox["8.`", NumberMarks -> False, StripOnInput -> False]}], 
+        FontColor -> GrayLevel[0.5]]}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           
+           RowBox[{"2020", ",", "3", ",", "1", ",", "18", ",", "0", ",", 
+             "0.8000001907348633`"}], "}"}], ",", "\"Instant\"", ",", 
+         "\"Gregorian\"", ",", "8.`"}], "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 1 Mar 2020 18:00:00\"", 
+       StyleBox[
+        RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+          StyleBox["8.`", NumberMarks -> False, StripOnInput -> False]}], 
+        FontColor -> GrayLevel[0.5]]}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           
+           RowBox[{"2020", ",", "3", ",", "1", ",", "18", ",", "0", ",", 
+             "0.8499999046325684`"}], "}"}], ",", "\"Instant\"", ",", 
+         "\"Gregorian\"", ",", "8.`"}], "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 1 Mar 2020 18:00:00\"", 
+       StyleBox[
+        RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+          StyleBox["8.`", NumberMarks -> False, StripOnInput -> False]}], 
+        FontColor -> GrayLevel[0.5]]}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           
+           RowBox[{"2020", ",", "3", ",", "1", ",", "18", ",", "0", ",", 
+             "0.9000000953674316`"}], "}"}], ",", "\"Instant\"", ",", 
+         "\"Gregorian\"", ",", "8.`"}], "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 1 Mar 2020 18:00:00\"", 
+       StyleBox[
+        RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+          StyleBox["8.`", NumberMarks -> False, StripOnInput -> False]}], 
+        FontColor -> GrayLevel[0.5]]}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           
+           RowBox[{"2020", ",", "3", ",", "1", ",", "18", ",", "0", ",", 
+             "0.9499998092651367`"}], "}"}], ",", "\"Instant\"", ",", 
+         "\"Gregorian\"", ",", "8.`"}], "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 1 Mar 2020 18:00:01\"", 
+       StyleBox[
+        RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+          StyleBox["8.`", NumberMarks -> False, StripOnInput -> False]}], 
+        FontColor -> GrayLevel[0.5]]}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           
+           RowBox[{"2020", ",", "3", ",", "1", ",", "18", ",", "0", ",", 
+             "1.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", ",", 
+         "8.`"}], "]"}]},
+    "DateObject",
+    Editable->False]}], "}"}]], "Output",
+ CellChangeTimes->{{3.7959920825627213`*^9, 3.795992108649424*^9}, 
+   3.7959928623346167`*^9},
+ CellLabel->"Out[46]=",ExpressionUUID->"f453499a-5f05-4c1a-8bca-44321c980a78"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"%", "[", 
+   RowBox[{"[", "3", "]"}], "]"}], "-", 
+  RowBox[{"%", "[", 
+   RowBox[{"[", "2", "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.795992856282496*^9, 3.795992860936306*^9}},
+ CellLabel->"In[47]:=",ExpressionUUID->"2f239d45-f459-40a5-a3cf-fd30b2763901"],
+
+Cell[BoxData[
+ TemplateBox[{"0.05000019073486328`", "\"s\"", "seconds", "\"Seconds\""},
+  "Quantity"]], "Output",
+ CellChangeTimes->{3.795992863883477*^9},
+ CellLabel->"Out[47]=",ExpressionUUID->"c7e5957b-51ce-4ff0-998b-752ad0f4fe31"]
+}, Open  ]],
+
+Cell["Comprehensive example", "Item",
+ CellChangeTimes->{{3.795992632539007*^9, 3.795992641849749*^9}, {
+  3.795993019204259*^9, 3.795993034639187*^9}, {3.795993744065672*^9, 
+  3.79599376219139*^9}},ExpressionUUID->"bb202cd7-9101-4272-9eab-\
+8091ee3e8569"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TDengineQuery", "[", 
+  RowBox[{
+  "db", ",", "\"\<CREATE TABLE testTable (ts TIMESTAMP,data INT)\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.795992650266322*^9, 3.795992660378849*^9}, {
+  3.795992955123999*^9, 3.795992989432234*^9}, {3.795993047633212*^9, 
+  3.7959930665591993`*^9}},
+ CellLabel->"In[82]:=",ExpressionUUID->"a7c94ad7-65d1-40ea-9db7-67b5b6e089be"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["Success",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = True, Typeset`embedState$$ = "Ready"}, 
+    TemplateBox[{
+      PaneSelectorBox[{False -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource[
+               "FEBitmaps", "SquarePlusIconMedium"]], 
+              ButtonFunction :> (Typeset`open$$ = True), Appearance -> None, 
+              Evaluator -> Automatic, Method -> "Preemptive"], 
+             Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                AbsoluteCurrentValue[Magnification]}]], 
+            FrameBox[
+             StyleBox["\"\[Checkmark]\"", 
+              Directive[
+               RGBColor[
+               0.3607843137254902, 0.596078431372549, 0.3803921568627451], 
+               25], StripOnInput -> False], ContentPadding -> False, 
+             FrameStyle -> None, FrameMargins -> {{0, 0}, {0, 0}}, 
+             StripOnInput -> False], 
+            GridBox[{{
+               RowBox[{
+                 TagBox[
+                  TemplateBox[{"\"SQL\"", "\": \""}, "RowDefault"], 
+                  "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                 TagBox[
+                 "\"CREATE TABLE testTable (ts TIMESTAMP,data INT)\"", 
+                  "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox[
+                  TemplateBox[{"\"TimeStamp\"", "\": \""}, "RowDefault"], 
+                  "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                 TagBox["\"Thu 16 Apr 2020 10:41:42\"", "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource[
+               "FEBitmaps", "SquareMinusIconMedium"]], 
+              ButtonFunction :> (Typeset`open$$ = False), Appearance -> None, 
+              Evaluator -> Automatic, Method -> "Preemptive"], 
+             Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                AbsoluteCurrentValue[Magnification]}]], 
+            FrameBox[
+             StyleBox["\"\[Checkmark]\"", 
+              Directive[
+               RGBColor[
+               0.3607843137254902, 0.596078431372549, 0.3803921568627451], 
+               25], StripOnInput -> False], ContentPadding -> False, 
+             FrameStyle -> None, FrameMargins -> {{0, 0}, {0, 0}}, 
+             StripOnInput -> False], 
+            GridBox[{{
+               RowBox[{
+                 TagBox[
+                  TemplateBox[{"\"SQL\"", "\": \""}, "RowDefault"], 
+                  "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                 TagBox[
+                 "\"CREATE TABLE testTable (ts TIMESTAMP,data INT)\"", 
+                  "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox[
+                  TemplateBox[{"\"TimeStamp\"", "\": \""}, "RowDefault"], 
+                  "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                 TagBox["\"Thu 16 Apr 2020 10:41:42\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox[
+                  TemplateBox[{"\"Tag\"", "\": \""}, "RowDefault"], 
+                  "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                 TagBox["\"ExecutionCompleted\"", "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  Success["ExecutionCompleted", 
+   Association[
+   "SQL" -> "CREATE TABLE testTable (ts TIMESTAMP,data INT)", "TimeStamp" -> 
+    "Thu 16 Apr 2020 10:41:42"]],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{3.795992967016837*^9, 3.7959930679679747`*^9, 
+  3.7959936563691187`*^9, 3.795993702857181*^9},
+ CellLabel->"Out[82]=",ExpressionUUID->"ebe79151-72bd-4931-b34a-fe1f3e999991"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TDengineQuery", "[", 
+  RowBox[{"db", ",", "\"\<SHOW TABLES\>\""}], "]"}]], "Input",
+ CellLabel->"In[83]:=",ExpressionUUID->"0db18b46-1f74-4655-8d3e-4b25c55e06ae"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"ColumnName\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"\<\"table_name\"\>", ",", "\<\"created_time\"\>", 
+      ",", "\<\"columns\"\>", ",", "\<\"stable\"\>"}], "}"}]}], ",", 
+   RowBox[{"\<\"ColumnType\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"\<\"CString\"\>", ",", "\<\"TimeStamp\"\>", 
+      ",", "\<\"Integer16\"\>", ",", "\<\"CString\"\>"}], "}"}]}], ",", 
+   RowBox[{"\<\"Data\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"\<\"test\"\>", ",", "1586927604831", ",", "4", 
+        ",", "\<\"\"\>"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"\<\"testtable\"\>", ",", "1587004902852", ",", "2", 
+        ",", "\<\"\"\>"}], "}"}]}], "}"}]}]}], 
+  "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{3.795993073381309*^9, 3.795993656416201*^9, 
+  3.795993702903038*^9},
+ CellLabel->"Out[83]=",ExpressionUUID->"96f392b6-7d40-4422-99a6-838db02acdaf"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TDengineQuery", "[", 
+  RowBox[{"db", ",", "\"\<DESCRIBE testTable\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.795993093671029*^9, 3.79599311692842*^9}},
+ CellLabel->"In[84]:=",ExpressionUUID->"e5571a22-1585-44d0-b9dc-05f2acc1f15b"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"ColumnName\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"\<\"Field\"\>", ",", "\<\"Type\"\>", ",", "\<\"Length\"\>", 
+      ",", "\<\"Note\"\>"}], "}"}]}], ",", 
+   RowBox[{"\<\"ColumnType\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"\<\"CString\"\>", ",", "\<\"CString\"\>", 
+      ",", "\<\"Integer32\"\>", ",", "\<\"CString\"\>"}], "}"}]}], ",", 
+   RowBox[{"\<\"Data\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"\<\"ts\"\>", ",", "\<\"TIMESTAMP\"\>", ",", "8", 
+        ",", "\<\"\"\>"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"\<\"data\"\>", ",", "\<\"INT\"\>", ",", "4", 
+        ",", "\<\"\"\>"}], "}"}]}], "}"}]}]}], 
+  "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{3.7959931174029913`*^9, 3.795993656445723*^9, 
+  3.795993702933329*^9},
+ CellLabel->"Out[84]=",ExpressionUUID->"09c3e568-21bd-4892-892d-ace2ab047645"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Table", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Pause", "[", ".01", "]"}], ";", "\[IndentingNewLine]", 
+    RowBox[{"TDengineQuery", "[", 
+     RowBox[{"db", ",", 
+      RowBox[{"\"\<INSERT INTO testTable VALUES (\\\"\>\"", "<>", 
+       RowBox[{"DateString", "[", "\"\<ISODate\>\"", "]"}], "<>", "\"\< \>\"",
+        "<>", 
+       RowBox[{"DateString", "[", "\"\<Time\>\"", "]"}], "<>", "\"\<.\>\"", "<>", 
+       RowBox[{"DateString", "[", "\"\<Millisecond\>\"", "]"}], "<>", 
+       "\"\<\\\",\>\"", "<>", 
+       RowBox[{"ToString", "[", 
+        RowBox[{"RandomInteger", "[", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", "100"}], "}"}], "]"}], "]"}], "<>", 
+       "\"\<)\>\""}]}], "]"}]}], ",", "5"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7959931375015783`*^9, 3.795993174250225*^9}, {
+  3.795993243980035*^9, 3.795993352832603*^9}, {3.795993423223427*^9, 
+  3.7959934322372007`*^9}, {3.795993470089733*^9, 3.795993504176826*^9}, {
+  3.795993545375484*^9, 3.795993580777604*^9}},
+ CellLabel->"In[85]:=",ExpressionUUID->"72743260-01ef-449b-af0e-89cc10138b7f"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   InterpretationBox[
+    RowBox[{
+     TagBox["Success",
+      "SummaryHead"], "[", 
+     DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = 
+      "Ready"}, 
+      TemplateBox[{
+        PaneSelectorBox[{False -> GridBox[{{
+              PaneBox[
+               ButtonBox[
+                DynamicBox[
+                 FEPrivate`FrontEndResource[
+                 "FEBitmaps", "SquarePlusIconMedium"]], 
+                ButtonFunction :> (Typeset`open$$ = True), Appearance -> None,
+                 Evaluator -> Automatic, Method -> "Preemptive"], 
+               Alignment -> {Center, Center}, ImageSize -> 
+               Dynamic[{
+                 Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                  AbsoluteCurrentValue[Magnification]}]], 
+              FrameBox[
+               StyleBox["\"\[Checkmark]\"", 
+                Directive[
+                 RGBColor[
+                 0.3607843137254902, 0.596078431372549, 0.3803921568627451], 
+                 25], StripOnInput -> False], ContentPadding -> False, 
+               FrameStyle -> None, FrameMargins -> {{0, 0}, {0, 0}}, 
+               StripOnInput -> False], 
+              GridBox[{{
+                 RowBox[{
+                   TagBox[
+                    TemplateBox[{"\"SQL\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"INSERT INTO testTable VALUES (\\\"2020-04-16 \
+10:41:42.954\\\",92)\"", "SummaryItem"]}]}, {
+                 RowBox[{
+                   TagBox[
+                    TemplateBox[{"\"TimeStamp\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                   TagBox["\"Thu 16 Apr 2020 10:41:42\"", "SummaryItem"]}]}}, 
+               GridBoxAlignment -> {
+                "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+               False, GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+               GridBoxSpacings -> {
+                "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+               BaseStyle -> {
+                ShowStringCharacters -> False, NumberMarks -> False, 
+                 PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+            GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+            GridBoxItemSize -> {
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+            BaselinePosition -> {1, 1}], True -> GridBox[{{
+              PaneBox[
+               ButtonBox[
+                DynamicBox[
+                 FEPrivate`FrontEndResource[
+                 "FEBitmaps", "SquareMinusIconMedium"]], 
+                ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
+                None, Evaluator -> Automatic, Method -> "Preemptive"], 
+               Alignment -> {Center, Center}, ImageSize -> 
+               Dynamic[{
+                 Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                  AbsoluteCurrentValue[Magnification]}]], 
+              FrameBox[
+               StyleBox["\"\[Checkmark]\"", 
+                Directive[
+                 RGBColor[
+                 0.3607843137254902, 0.596078431372549, 0.3803921568627451], 
+                 25], StripOnInput -> False], ContentPadding -> False, 
+               FrameStyle -> None, FrameMargins -> {{0, 0}, {0, 0}}, 
+               StripOnInput -> False], 
+              GridBox[{{
+                 RowBox[{
+                   TagBox[
+                    TemplateBox[{"\"SQL\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"INSERT INTO testTable VALUES (\\\"2020-04-16 \
+10:41:42.954\\\",92)\"", "SummaryItem"]}]}, {
+                 RowBox[{
+                   TagBox[
+                    TemplateBox[{"\"TimeStamp\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                   TagBox["\"Thu 16 Apr 2020 10:41:42\"", "SummaryItem"]}]}, {
+                
+                 RowBox[{
+                   TagBox[
+                    TemplateBox[{"\"Tag\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                   TagBox["\"ExecutionCompleted\"", "SummaryItem"]}]}}, 
+               GridBoxAlignment -> {
+                "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+               False, 
+               GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+               GridBoxSpacings -> {
+                "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+               BaseStyle -> {
+                ShowStringCharacters -> False, NumberMarks -> False, 
+                 PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+            GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+            GridBoxItemSize -> {
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+            BaselinePosition -> {1, 1}]}, 
+         Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+       "SummaryPanel"],
+      DynamicModuleValues:>{}], "]"}],
+    Success["ExecutionCompleted", 
+     Association[
+     "SQL" -> "INSERT INTO testTable VALUES (\"2020-04-16 10:41:42.954\",92)",
+       "TimeStamp" -> "Thu 16 Apr 2020 10:41:42"]],
+    Editable->False,
+    SelectWithContents->True,
+    Selectable->False], ",", 
+   InterpretationBox[
+    RowBox[{
+     TagBox["Success",
+      "SummaryHead"], "[", 
+     DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = 
+      "Ready"}, 
+      TemplateBox[{
+        PaneSelectorBox[{False -> GridBox[{{
+              PaneBox[
+               ButtonBox[
+                DynamicBox[
+                 FEPrivate`FrontEndResource[
+                 "FEBitmaps", "SquarePlusIconMedium"]], 
+                ButtonFunction :> (Typeset`open$$ = True), Appearance -> None,
+                 Evaluator -> Automatic, Method -> "Preemptive"], 
+               Alignment -> {Center, Center}, ImageSize -> 
+               Dynamic[{
+                 Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                  AbsoluteCurrentValue[Magnification]}]], 
+              FrameBox[
+               StyleBox["\"\[Checkmark]\"", 
+                Directive[
+                 RGBColor[
+                 0.3607843137254902, 0.596078431372549, 0.3803921568627451], 
+                 25], StripOnInput -> False], ContentPadding -> False, 
+               FrameStyle -> None, FrameMargins -> {{0, 0}, {0, 0}}, 
+               StripOnInput -> False], 
+              GridBox[{{
+                 RowBox[{
+                   TagBox[
+                    TemplateBox[{"\"SQL\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"INSERT INTO testTable VALUES (\\\"2020-04-16 \
+10:41:42.966\\\",100)\"", "SummaryItem"]}]}, {
+                 RowBox[{
+                   TagBox[
+                    TemplateBox[{"\"TimeStamp\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                   TagBox["\"Thu 16 Apr 2020 10:41:42\"", "SummaryItem"]}]}}, 
+               GridBoxAlignment -> {
+                "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+               False, GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+               GridBoxSpacings -> {
+                "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+               BaseStyle -> {
+                ShowStringCharacters -> False, NumberMarks -> False, 
+                 PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+            GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+            GridBoxItemSize -> {
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+            BaselinePosition -> {1, 1}], True -> GridBox[{{
+              PaneBox[
+               ButtonBox[
+                DynamicBox[
+                 FEPrivate`FrontEndResource[
+                 "FEBitmaps", "SquareMinusIconMedium"]], 
+                ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
+                None, Evaluator -> Automatic, Method -> "Preemptive"], 
+               Alignment -> {Center, Center}, ImageSize -> 
+               Dynamic[{
+                 Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                  AbsoluteCurrentValue[Magnification]}]], 
+              FrameBox[
+               StyleBox["\"\[Checkmark]\"", 
+                Directive[
+                 RGBColor[
+                 0.3607843137254902, 0.596078431372549, 0.3803921568627451], 
+                 25], StripOnInput -> False], ContentPadding -> False, 
+               FrameStyle -> None, FrameMargins -> {{0, 0}, {0, 0}}, 
+               StripOnInput -> False], 
+              GridBox[{{
+                 RowBox[{
+                   TagBox[
+                    TemplateBox[{"\"SQL\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"INSERT INTO testTable VALUES (\\\"2020-04-16 \
+10:41:42.966\\\",100)\"", "SummaryItem"]}]}, {
+                 RowBox[{
+                   TagBox[
+                    TemplateBox[{"\"TimeStamp\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                   TagBox["\"Thu 16 Apr 2020 10:41:42\"", "SummaryItem"]}]}, {
+                
+                 RowBox[{
+                   TagBox[
+                    TemplateBox[{"\"Tag\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                   TagBox["\"ExecutionCompleted\"", "SummaryItem"]}]}}, 
+               GridBoxAlignment -> {
+                "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+               False, GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+               GridBoxSpacings -> {
+                "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+               BaseStyle -> {
+                ShowStringCharacters -> False, NumberMarks -> False, 
+                 PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+            GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+            GridBoxItemSize -> {
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+            BaselinePosition -> {1, 1}]}, 
+         Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+       "SummaryPanel"],
+      DynamicModuleValues:>{}], "]"}],
+    Success["ExecutionCompleted", 
+     Association[
+     "SQL" -> "INSERT INTO testTable VALUES (\"2020-04-16 \
+10:41:42.966\",100)", "TimeStamp" -> "Thu 16 Apr 2020 10:41:42"]],
+    Editable->False,
+    SelectWithContents->True,
+    Selectable->False], ",", 
+   InterpretationBox[
+    RowBox[{
+     TagBox["Success",
+      "SummaryHead"], "[", 
+     DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = 
+      "Ready"}, 
+      TemplateBox[{
+        PaneSelectorBox[{False -> GridBox[{{
+              PaneBox[
+               ButtonBox[
+                DynamicBox[
+                 FEPrivate`FrontEndResource[
+                 "FEBitmaps", "SquarePlusIconMedium"]], 
+                ButtonFunction :> (Typeset`open$$ = True), Appearance -> None,
+                 Evaluator -> Automatic, Method -> "Preemptive"], 
+               Alignment -> {Center, Center}, ImageSize -> 
+               Dynamic[{
+                 Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                  AbsoluteCurrentValue[Magnification]}]], 
+              FrameBox[
+               StyleBox["\"\[Checkmark]\"", 
+                Directive[
+                 RGBColor[
+                 0.3607843137254902, 0.596078431372549, 0.3803921568627451], 
+                 25], StripOnInput -> False], ContentPadding -> False, 
+               FrameStyle -> None, FrameMargins -> {{0, 0}, {0, 0}}, 
+               StripOnInput -> False], 
+              GridBox[{{
+                 RowBox[{
+                   TagBox[
+                    TemplateBox[{"\"SQL\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"INSERT INTO testTable VALUES (\\\"2020-04-16 \
+10:41:42.978\\\",32)\"", "SummaryItem"]}]}, {
+                 RowBox[{
+                   TagBox[
+                    TemplateBox[{"\"TimeStamp\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                   TagBox["\"Thu 16 Apr 2020 10:41:42\"", "SummaryItem"]}]}}, 
+               GridBoxAlignment -> {
+                "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+               False, GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+               GridBoxSpacings -> {
+                "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+               BaseStyle -> {
+                ShowStringCharacters -> False, NumberMarks -> False, 
+                 PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+            GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+            GridBoxItemSize -> {
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+            BaselinePosition -> {1, 1}], True -> GridBox[{{
+              PaneBox[
+               ButtonBox[
+                DynamicBox[
+                 FEPrivate`FrontEndResource[
+                 "FEBitmaps", "SquareMinusIconMedium"]], 
+                ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
+                None, Evaluator -> Automatic, Method -> "Preemptive"], 
+               Alignment -> {Center, Center}, ImageSize -> 
+               Dynamic[{
+                 Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                  AbsoluteCurrentValue[Magnification]}]], 
+              FrameBox[
+               StyleBox["\"\[Checkmark]\"", 
+                Directive[
+                 RGBColor[
+                 0.3607843137254902, 0.596078431372549, 0.3803921568627451], 
+                 25], StripOnInput -> False], ContentPadding -> False, 
+               FrameStyle -> None, FrameMargins -> {{0, 0}, {0, 0}}, 
+               StripOnInput -> False], 
+              GridBox[{{
+                 RowBox[{
+                   TagBox[
+                    TemplateBox[{"\"SQL\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"INSERT INTO testTable VALUES (\\\"2020-04-16 \
+10:41:42.978\\\",32)\"", "SummaryItem"]}]}, {
+                 RowBox[{
+                   TagBox[
+                    TemplateBox[{"\"TimeStamp\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                   TagBox["\"Thu 16 Apr 2020 10:41:42\"", "SummaryItem"]}]}, {
+                
+                 RowBox[{
+                   TagBox[
+                    TemplateBox[{"\"Tag\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                   TagBox["\"ExecutionCompleted\"", "SummaryItem"]}]}}, 
+               GridBoxAlignment -> {
+                "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+               False, GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+               GridBoxSpacings -> {
+                "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+               BaseStyle -> {
+                ShowStringCharacters -> False, NumberMarks -> False, 
+                 PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+            GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+            GridBoxItemSize -> {
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+            BaselinePosition -> {1, 1}]}, 
+         Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+       "SummaryPanel"],
+      DynamicModuleValues:>{}], "]"}],
+    Success["ExecutionCompleted", 
+     Association[
+     "SQL" -> "INSERT INTO testTable VALUES (\"2020-04-16 10:41:42.978\",32)",
+       "TimeStamp" -> "Thu 16 Apr 2020 10:41:42"]],
+    Editable->False,
+    SelectWithContents->True,
+    Selectable->False], ",", 
+   InterpretationBox[
+    RowBox[{
+     TagBox["Success",
+      "SummaryHead"], "[", 
+     DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = 
+      "Ready"}, 
+      TemplateBox[{
+        PaneSelectorBox[{False -> GridBox[{{
+              PaneBox[
+               ButtonBox[
+                DynamicBox[
+                 FEPrivate`FrontEndResource[
+                 "FEBitmaps", "SquarePlusIconMedium"]], 
+                ButtonFunction :> (Typeset`open$$ = True), Appearance -> None,
+                 Evaluator -> Automatic, Method -> "Preemptive"], 
+               Alignment -> {Center, Center}, ImageSize -> 
+               Dynamic[{
+                 Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                  AbsoluteCurrentValue[Magnification]}]], 
+              FrameBox[
+               StyleBox["\"\[Checkmark]\"", 
+                Directive[
+                 RGBColor[
+                 0.3607843137254902, 0.596078431372549, 0.3803921568627451], 
+                 25], StripOnInput -> False], ContentPadding -> False, 
+               FrameStyle -> None, FrameMargins -> {{0, 0}, {0, 0}}, 
+               StripOnInput -> False], 
+              GridBox[{{
+                 RowBox[{
+                   TagBox[
+                    TemplateBox[{"\"SQL\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"INSERT INTO testTable VALUES (\\\"2020-04-16 \
+10:41:42.989\\\",90)\"", "SummaryItem"]}]}, {
+                 RowBox[{
+                   TagBox[
+                    TemplateBox[{"\"TimeStamp\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                   TagBox["\"Thu 16 Apr 2020 10:41:42\"", "SummaryItem"]}]}}, 
+               GridBoxAlignment -> {
+                "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+               False, GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+               GridBoxSpacings -> {
+                "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+               BaseStyle -> {
+                ShowStringCharacters -> False, NumberMarks -> False, 
+                 PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+            GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+            GridBoxItemSize -> {
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+            BaselinePosition -> {1, 1}], True -> GridBox[{{
+              PaneBox[
+               ButtonBox[
+                DynamicBox[
+                 FEPrivate`FrontEndResource[
+                 "FEBitmaps", "SquareMinusIconMedium"]], 
+                ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
+                None, Evaluator -> Automatic, Method -> "Preemptive"], 
+               Alignment -> {Center, Center}, ImageSize -> 
+               Dynamic[{
+                 Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                  AbsoluteCurrentValue[Magnification]}]], 
+              FrameBox[
+               StyleBox["\"\[Checkmark]\"", 
+                Directive[
+                 RGBColor[
+                 0.3607843137254902, 0.596078431372549, 0.3803921568627451], 
+                 25], StripOnInput -> False], ContentPadding -> False, 
+               FrameStyle -> None, FrameMargins -> {{0, 0}, {0, 0}}, 
+               StripOnInput -> False], 
+              GridBox[{{
+                 RowBox[{
+                   TagBox[
+                    TemplateBox[{"\"SQL\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"INSERT INTO testTable VALUES (\\\"2020-04-16 \
+10:41:42.989\\\",90)\"", "SummaryItem"]}]}, {
+                 RowBox[{
+                   TagBox[
+                    TemplateBox[{"\"TimeStamp\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                   TagBox["\"Thu 16 Apr 2020 10:41:42\"", "SummaryItem"]}]}, {
+                
+                 RowBox[{
+                   TagBox[
+                    TemplateBox[{"\"Tag\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                   TagBox["\"ExecutionCompleted\"", "SummaryItem"]}]}}, 
+               GridBoxAlignment -> {
+                "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+               False, GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+               GridBoxSpacings -> {
+                "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+               BaseStyle -> {
+                ShowStringCharacters -> False, NumberMarks -> False, 
+                 PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+            GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+            GridBoxItemSize -> {
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+            BaselinePosition -> {1, 1}]}, 
+         Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+       "SummaryPanel"],
+      DynamicModuleValues:>{}], "]"}],
+    Success["ExecutionCompleted", 
+     Association[
+     "SQL" -> "INSERT INTO testTable VALUES (\"2020-04-16 10:41:42.989\",90)",
+       "TimeStamp" -> "Thu 16 Apr 2020 10:41:42"]],
+    Editable->False,
+    SelectWithContents->True,
+    Selectable->False], ",", 
+   InterpretationBox[
+    RowBox[{
+     TagBox["Success",
+      "SummaryHead"], "[", 
+     DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = 
+      "Ready"}, 
+      TemplateBox[{
+        PaneSelectorBox[{False -> GridBox[{{
+              PaneBox[
+               ButtonBox[
+                DynamicBox[
+                 FEPrivate`FrontEndResource[
+                 "FEBitmaps", "SquarePlusIconMedium"]], 
+                ButtonFunction :> (Typeset`open$$ = True), Appearance -> None,
+                 Evaluator -> Automatic, Method -> "Preemptive"], 
+               Alignment -> {Center, Center}, ImageSize -> 
+               Dynamic[{
+                 Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                  AbsoluteCurrentValue[Magnification]}]], 
+              FrameBox[
+               StyleBox["\"\[Checkmark]\"", 
+                Directive[
+                 RGBColor[
+                 0.3607843137254902, 0.596078431372549, 0.3803921568627451], 
+                 25], StripOnInput -> False], ContentPadding -> False, 
+               FrameStyle -> None, FrameMargins -> {{0, 0}, {0, 0}}, 
+               StripOnInput -> False], 
+              GridBox[{{
+                 RowBox[{
+                   TagBox[
+                    TemplateBox[{"\"SQL\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"INSERT INTO testTable VALUES (\\\"2020-04-16 \
+10:41:43.002\\\",6)\"", "SummaryItem"]}]}, {
+                 RowBox[{
+                   TagBox[
+                    TemplateBox[{"\"TimeStamp\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                   TagBox["\"Thu 16 Apr 2020 10:41:43\"", "SummaryItem"]}]}}, 
+               GridBoxAlignment -> {
+                "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+               False, GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+               GridBoxSpacings -> {
+                "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+               BaseStyle -> {
+                ShowStringCharacters -> False, NumberMarks -> False, 
+                 PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+            GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+            GridBoxItemSize -> {
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+            BaselinePosition -> {1, 1}], True -> GridBox[{{
+              PaneBox[
+               ButtonBox[
+                DynamicBox[
+                 FEPrivate`FrontEndResource[
+                 "FEBitmaps", "SquareMinusIconMedium"]], 
+                ButtonFunction :> (Typeset`open$$ = False), Appearance -> 
+                None, Evaluator -> Automatic, Method -> "Preemptive"], 
+               Alignment -> {Center, Center}, ImageSize -> 
+               Dynamic[{
+                 Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                  AbsoluteCurrentValue[Magnification]}]], 
+              FrameBox[
+               StyleBox["\"\[Checkmark]\"", 
+                Directive[
+                 RGBColor[
+                 0.3607843137254902, 0.596078431372549, 0.3803921568627451], 
+                 25], StripOnInput -> False], ContentPadding -> False, 
+               FrameStyle -> None, FrameMargins -> {{0, 0}, {0, 0}}, 
+               StripOnInput -> False], 
+              GridBox[{{
+                 RowBox[{
+                   TagBox[
+                    TemplateBox[{"\"SQL\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"INSERT INTO testTable VALUES (\\\"2020-04-16 \
+10:41:43.002\\\",6)\"", "SummaryItem"]}]}, {
+                 RowBox[{
+                   TagBox[
+                    TemplateBox[{"\"TimeStamp\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                   TagBox["\"Thu 16 Apr 2020 10:41:43\"", "SummaryItem"]}]}, {
+                
+                 RowBox[{
+                   TagBox[
+                    TemplateBox[{"\"Tag\"", "\": \""}, "RowDefault"], 
+                    "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                   TagBox["\"ExecutionCompleted\"", "SummaryItem"]}]}}, 
+               GridBoxAlignment -> {
+                "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+               False, GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+               GridBoxSpacings -> {
+                "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+               BaseStyle -> {
+                ShowStringCharacters -> False, NumberMarks -> False, 
+                 PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+            GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+            GridBoxItemSize -> {
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+            BaselinePosition -> {1, 1}]}, 
+         Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+       "SummaryPanel"],
+      DynamicModuleValues:>{}], "]"}],
+    Success["ExecutionCompleted", 
+     Association[
+     "SQL" -> "INSERT INTO testTable VALUES (\"2020-04-16 10:41:43.002\",6)", 
+      "TimeStamp" -> "Thu 16 Apr 2020 10:41:43"]],
+    Editable->False,
+    SelectWithContents->True,
+    Selectable->False]}], "}"}]], "Output",
+ CellChangeTimes->{{3.795993324025395*^9, 3.7959933535866537`*^9}, 
+   3.795993397696479*^9, {3.7959934804018373`*^9, 3.795993522539535*^9}, {
+   3.795993561165845*^9, 3.795993581972991*^9}, 3.795993656540365*^9, 
+   3.7959937030286827`*^9},
+ CellLabel->"Out[85]=",ExpressionUUID->"c8405779-2623-4bb4-beac-8b38a566b818"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"TDengineQuery", "[", 
+  RowBox[{"db", ",", "\"\<SELECT * FROM testtable\>\""}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"TableForm", "[", 
+  RowBox[{
+   RowBox[{"%", "[", "\"\<Data\>\"", "]"}], ",", 
+   RowBox[{"TableHeadings", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"Automatic", ",", 
+      RowBox[{"%", "[", "\"\<ColumnName\>\"", "]"}]}], "}"}]}]}], 
+  "]"}]}], "Input",
+ CellChangeTimes->{{3.7959933566852093`*^9, 3.795993369130025*^9}, {
+  3.795993674168659*^9, 3.7959936928978033`*^9}},
+ CellLabel->"In[86]:=",ExpressionUUID->"08eef0df-a910-4249-8927-4b0d4ac3b64b"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"ColumnName\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"\<\"ts\"\>", ",", "\<\"data\"\>"}], "}"}]}], ",", 
+   RowBox[{"\<\"ColumnType\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"\<\"TimeStamp\"\>", ",", "\<\"Integer32\"\>"}], "}"}]}], ",", 
+   RowBox[{"\<\"Data\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"1587004902954", ",", "92"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"1587004902966", ",", "100"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"1587004902978", ",", "32"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"1587004902989", ",", "90"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"1587004903002", ",", "6"}], "}"}]}], "}"}]}]}], 
+  "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{
+  3.795993369495859*^9, 3.795993399683873*^9, {3.795993497659031*^9, 
+   3.79599352445436*^9}, 3.795993572850296*^9, 3.795993656578146*^9, 
+   3.795993703068369*^9},
+ CellLabel->"Out[86]=",ExpressionUUID->"c99eb6e4-93f3-4fbe-a735-362f9a7126dc"],
+
+Cell[BoxData[
+ TagBox[
+  TagBox[GridBox[{
+     {
+      StyleBox["\[Null]",
+       ShowStringCharacters->False], 
+      TagBox["\<\"ts\"\>",
+       HoldForm], 
+      TagBox["\<\"data\"\>",
+       HoldForm]},
+     {"1", "1587004902954", "92"},
+     {"2", "1587004902966", "100"},
+     {"3", "1587004902978", "32"},
+     {"4", "1587004902989", "90"},
+     {"5", "1587004903002", "6"}
+    },
+    GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+    GridBoxDividers->{
+     "Columns" -> {False, True, {False}, False}, 
+      "Rows" -> {False, True, {False}, False}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[2.0999999999999996`]}, 
+        Offset[0.27999999999999997`]}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}}],
+   {OutputFormsDump`HeadedRows, OutputFormsDump`HeadedColumns}],
+  Function[BoxForm`e$, 
+   TableForm[
+   BoxForm`e$, TableHeadings -> {Automatic, {"ts", "data"}}]]]], "Output",
+ CellChangeTimes->{
+  3.795993369495859*^9, 3.795993399683873*^9, {3.795993497659031*^9, 
+   3.79599352445436*^9}, 3.795993572850296*^9, 3.795993656578146*^9, 
+   3.795993703075246*^9},
+ CellLabel->
+  "Out[87]//TableForm=",ExpressionUUID->"665f71f3-cdd5-4222-9d18-\
+e6f97e38edf8"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TDengineQuery", "[", 
+  RowBox[{"db", ",", "\"\<DROP TABLE testtable\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.795993529186151*^9, 3.7959935318517103`*^9}, {
+  3.79599361533473*^9, 3.795993627821587*^9}},
+ CellLabel->"In[88]:=",ExpressionUUID->"8b1d2013-df5f-487e-84e1-a94cf344554b"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["Success",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    
+    TemplateBox[{
+      PaneSelectorBox[{False -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource[
+               "FEBitmaps", "SquarePlusIconMedium"]], 
+              ButtonFunction :> (Typeset`open$$ = True), Appearance -> None, 
+              Evaluator -> Automatic, Method -> "Preemptive"], 
+             Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                AbsoluteCurrentValue[Magnification]}]], 
+            FrameBox[
+             StyleBox["\"\[Checkmark]\"", 
+              Directive[
+               RGBColor[
+               0.3607843137254902, 0.596078431372549, 0.3803921568627451], 
+               25], StripOnInput -> False], ContentPadding -> False, 
+             FrameStyle -> None, FrameMargins -> {{0, 0}, {0, 0}}, 
+             StripOnInput -> False], 
+            GridBox[{{
+               RowBox[{
+                 TagBox[
+                  TemplateBox[{"\"SQL\"", "\": \""}, "RowDefault"], 
+                  "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                 TagBox["\"DROP TABLE testtable\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox[
+                  TemplateBox[{"\"TimeStamp\"", "\": \""}, "RowDefault"], 
+                  "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                 TagBox["\"Thu 16 Apr 2020 10:41:43\"", "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource[
+               "FEBitmaps", "SquareMinusIconMedium"]], 
+              ButtonFunction :> (Typeset`open$$ = False), Appearance -> None, 
+              Evaluator -> Automatic, Method -> "Preemptive"], 
+             Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                AbsoluteCurrentValue[Magnification]}]], 
+            FrameBox[
+             StyleBox["\"\[Checkmark]\"", 
+              Directive[
+               RGBColor[
+               0.3607843137254902, 0.596078431372549, 0.3803921568627451], 
+               25], StripOnInput -> False], ContentPadding -> False, 
+             FrameStyle -> None, FrameMargins -> {{0, 0}, {0, 0}}, 
+             StripOnInput -> False], 
+            GridBox[{{
+               RowBox[{
+                 TagBox[
+                  TemplateBox[{"\"SQL\"", "\": \""}, "RowDefault"], 
+                  "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                 TagBox["\"DROP TABLE testtable\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox[
+                  TemplateBox[{"\"TimeStamp\"", "\": \""}, "RowDefault"], 
+                  "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                 TagBox["\"Thu 16 Apr 2020 10:41:43\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox[
+                  TemplateBox[{"\"Tag\"", "\": \""}, "RowDefault"], 
+                  "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+                 TagBox["\"ExecutionCompleted\"", "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  Success["ExecutionCompleted", 
+   Association[
+   "SQL" -> "DROP TABLE testtable", "TimeStamp" -> 
+    "Thu 16 Apr 2020 10:41:43"]],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{{3.7959936283127937`*^9, 3.7959936566106997`*^9}, 
+   3.79599370310855*^9},
+ CellLabel->"Out[88]=",ExpressionUUID->"8fc44083-a17f-45ee-986f-ba856cc595bf"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TDengineQuery", "[", 
+  RowBox[{"db", ",", "\"\<SHOW TABLES\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.795993630160391*^9, 3.795993638647642*^9}},
+ CellLabel->"In[89]:=",ExpressionUUID->"dda0533d-8d4b-458f-ad3a-1d1be9451795"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"ColumnName\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"\<\"table_name\"\>", ",", "\<\"created_time\"\>", 
+      ",", "\<\"columns\"\>", ",", "\<\"stable\"\>"}], "}"}]}], ",", 
+   RowBox[{"\<\"ColumnType\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"\<\"CString\"\>", ",", "\<\"TimeStamp\"\>", 
+      ",", "\<\"Integer16\"\>", ",", "\<\"CString\"\>"}], "}"}]}], ",", 
+   RowBox[{"\<\"Data\"\>", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"{", 
+      RowBox[{"\<\"test\"\>", ",", "1586927604831", ",", "4", 
+       ",", "\<\"\"\>"}], "}"}], "}"}]}]}], "\[RightAssociation]"}]], "Output",\
+
+ CellChangeTimes->{{3.7959936390065117`*^9, 3.7959936566449423`*^9}, 
+   3.7959937031424026`*^9},
+ CellLabel->"Out[89]=",ExpressionUUID->"575e8f8e-5f29-45e5-8c6f-f8c06d589480"]
+}, Open  ]],
+
+Cell["Wrong Syntax", "Item",
+ CellChangeTimes->{{3.795992677997056*^9, 
+  3.795992683456634*^9}},ExpressionUUID->"1d44716b-36c0-4d8f-89ee-\
+034d6e97b721"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TDengineQuery", "[", 
+  RowBox[{"db", ",", "\"\<foo\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.7959926884602013`*^9, 3.7959926966180468`*^9}},
+ CellLabel->"In[43]:=",ExpressionUUID->"d88d3aee-a478-4b0e-bcc4-674c41cd56a8"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["Failure",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    
+    TemplateBox[{
+      PaneSelectorBox[{False -> GridBox[{{
+            FrameBox[
+             StyleBox["\"\[WarningSign]\"", 
+              Directive["Message", 35], StripOnInput -> False], 
+             ContentPadding -> False, FrameStyle -> None, 
+             FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
+            GridBox[{{
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Message: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"invalid SQL: syntax error near \\\"foo\\\"\"", 
+                    "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}, {
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Tag: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox["\"error\"", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            FrameBox[
+             StyleBox["\"\[WarningSign]\"", 
+              Directive["Message", 35], StripOnInput -> False], 
+             ContentPadding -> False, FrameStyle -> None, 
+             FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
+            GridBox[{{
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Message: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"invalid SQL: syntax error near \\\"foo\\\"\"", 
+                    "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}, {
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Tag: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox["\"error\"", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  Failure["error", 
+   Association["MessageTemplate" -> "invalid SQL: syntax error near \"foo\""]],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{3.795992697565712*^9},
+ CellLabel->"Out[43]=",ExpressionUUID->"f20e9779-f521-414d-9514-fac6b590e15a"]
+}, Open  ]],
+
+Cell["close connection.", "Text",
+ CellChangeTimes->{{3.795993951629635*^9, 
+  3.795993953058125*^9}},ExpressionUUID->"fd5c8f62-568d-4516-a55e-\
+fffe52c76a40"],
+
+Cell[BoxData[
+ RowBox[{"TDengineClose", "[", "db", "]"}]], "Input",
+ CellChangeTimes->{{3.795992284994779*^9, 3.795992289579585*^9}},
+ CellLabel->"In[27]:=",ExpressionUUID->"f7b893b9-5d0c-4bb6-8b37-e46e50fd2893"],
+
+Cell["after connection closed, any SQL query will fail.", "Text",
+ CellChangeTimes->{{3.795992462854068*^9, 
+  3.7959924845985737`*^9}},ExpressionUUID->"424e488b-9780-40c1-8508-\
+db73162d5ed0"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TDengineQuery", "[", 
+  RowBox[{"db", ",", "\"\<SHOW TABLES\>\""}], "]"}]], "Input",
+ CellLabel->"In[28]:=",ExpressionUUID->"cb572057-5dc2-4f99-8129-153d521bfb17"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["Failure",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    
+    TemplateBox[{
+      PaneSelectorBox[{False -> GridBox[{{
+            FrameBox[
+             StyleBox["\"\[WarningSign]\"", 
+              Directive["Message", 35], StripOnInput -> False], 
+             ContentPadding -> False, FrameStyle -> None, 
+             FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
+            GridBox[{{
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Message: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"login disconnected, login again\"", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}, {
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Tag: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox["\"error\"", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            FrameBox[
+             StyleBox["\"\[WarningSign]\"", 
+              Directive["Message", 35], StripOnInput -> False], 
+             ContentPadding -> False, FrameStyle -> None, 
+             FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
+            GridBox[{{
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Message: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"login disconnected, login again\"", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}, {
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Tag: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox["\"error\"", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  Failure["error", 
+   Association["MessageTemplate" -> "login disconnected, login again"]],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{3.795992301659842*^9},
+ CellLabel->"Out[28]=",ExpressionUUID->"11e6325d-aa6d-44dc-a11a-0cf46fa30fdb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Uninstall mathlink", "Subsubsection",
+ CellChangeTimes->{{3.795993813537568*^9, 
+  3.795993849992249*^9}},ExpressionUUID->"eba9c5b0-7a07-406b-8f30-\
+188e8a57dd3d"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Uninstall", "[", "link", "]"}]], "Input",
+ CellChangeTimes->{{3.7959938172308197`*^9, 3.795993833973847*^9}},
+ CellLabel->"In[91]:=",ExpressionUUID->"52f8f9ae-3fd7-4037-9330-1a401f68d6a9"],
+
+Cell[BoxData["\<\"'/home/tak/.Mathematica/Applications/TDengineLink'\"\>"], \
+"Output",
+ CellChangeTimes->{3.795993911586666*^9},
+ CellLabel->"Out[91]=",ExpressionUUID->"8ae57648-9865-4720-bc3f-3a538dfdae43"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{250, Automatic}, {44, Automatic}},
+FrontEndVersion->"12.1 for Linux x86 (64-bit) (March 14, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"a7133216-cd3a-436a-bb8e-e3e09041959c"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "Info-8fe090ab-1dd1-46de-ad59-1e76460f6431"->{
+  Cell[22194, 476, 10066, 250, 82, "Print",ExpressionUUID->"cd3c5ecf-177a-4285-9f0e-48b8c256aa8a",
+   CellTags->"Info-8fe090ab-1dd1-46de-ad59-1e76460f6431"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"Info-8fe090ab-1dd1-46de-ad59-1e76460f6431", 177055, 3805}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 302, 5, 30, "Input",ExpressionUUID->"fd3dd59d-28c7-4a9f-819a-44f9499e6d3a"],
+Cell[885, 29, 13055, 244, 62, "Output",ExpressionUUID->"0b9a7299-8e98-420b-b88b-43f977059f2a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13977, 278, 199, 3, 30, "Input",ExpressionUUID->"8ee8f8f7-7977-427b-b894-4db604190658"],
+Cell[14179, 283, 8012, 191, 158, "Output",ExpressionUUID->"31f7b750-1215-44b2-b1b0-e68f5e0fcca9"],
+Cell[22194, 476, 10066, 250, 82, "Print",ExpressionUUID->"cd3c5ecf-177a-4285-9f0e-48b8c256aa8a",
+ CellTags->"Info-8fe090ab-1dd1-46de-ad59-1e76460f6431"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32297, 731, 134, 3, 54, "Subsection",ExpressionUUID->"709c128d-a9eb-45f6-840d-fa84f0c58347"],
+Cell[CellGroupData[{
+Cell[32456, 738, 211, 3, 30, "Input",ExpressionUUID->"95e8f7fb-6c82-424f-8568-75b6d9f613f0"],
+Cell[32670, 743, 163, 2, 34, "Output",ExpressionUUID->"4c73f29d-eb05-46e0-a531-18afe8f27873"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32870, 750, 357, 7, 30, "Input",ExpressionUUID->"427db6ee-758c-43b6-b5a0-d347587b7f5c"],
+Cell[33230, 759, 240, 4, 34, "Output",ExpressionUUID->"56a2a964-aa46-4729-adb2-8889bada4bc5"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[33507, 768, 219, 3, 30, "Input",ExpressionUUID->"652cb5ad-fa84-4eed-b3c2-23fc3fe3059a"],
+Cell[33729, 773, 163, 2, 34, "Output",ExpressionUUID->"94d2ac4b-7c76-4af4-a138-4106d222d28c"]
+}, Open  ]],
+Cell[33907, 778, 156, 3, 32, "Item",ExpressionUUID->"019c1770-1378-4a38-b68a-9e2f0e279728"],
+Cell[CellGroupData[{
+Cell[34088, 785, 285, 5, 30, "Input",ExpressionUUID->"17eb06fb-f823-4b37-bb99-13cfcb7c2502"],
+Cell[34376, 792, 32830, 597, 157, "Output",ExpressionUUID->"c53d1498-c0a7-4843-a1eb-c394392c0a9e"]
+}, Open  ]],
+Cell[67221, 1392, 157, 3, 32, "Item",ExpressionUUID->"fe95dc24-de25-4022-a2c5-b90f1bcacc68"],
+Cell[CellGroupData[{
+Cell[67403, 1399, 253, 4, 30, "Input",ExpressionUUID->"3c6199f7-a0ae-4b8b-84cc-9c11594f1325"],
+Cell[67659, 1405, 791, 18, 81, "Output",ExpressionUUID->"066292d2-355b-4f71-8e52-f589c437a478"]
+}, Open  ]],
+Cell[68465, 1426, 148, 3, 32, "Item",ExpressionUUID->"eab7e977-6b7c-461f-ad74-c837b9a271ee"],
+Cell[CellGroupData[{
+Cell[68638, 1433, 463, 10, 30, "Input",ExpressionUUID->"5bdf74fe-e4e8-46ae-83c5-93b55b9d5f36"],
+Cell[69104, 1445, 351, 6, 34, "Output",ExpressionUUID->"8cc2268b-c769-473d-940e-94ee2a8cbc6d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[69492, 1456, 207, 3, 30, "Input",ExpressionUUID->"9ed78c03-51a7-493c-93cf-26a28e54617b"],
+Cell[69702, 1461, 32350, 593, 131, "Output",ExpressionUUID->"7279d755-7990-48d5-9c2b-58cf496ed889"]
+}, Open  ]],
+Cell[102067, 2057, 162, 3, 35, "Text",ExpressionUUID->"95f1f960-bb42-4b68-9aa2-b64c856823f1"],
+Cell[CellGroupData[{
+Cell[102254, 2064, 427, 10, 30, "Input",ExpressionUUID->"2d5845c6-c5d1-4f20-b2ab-e1d6b5e91e50"],
+Cell[102684, 2076, 3270, 75, 387, "Output",ExpressionUUID->"6e73faf6-d47f-40ab-a689-186493abf226"]
+}, Open  ]],
+Cell[105969, 2154, 281, 10, 35, "Text",ExpressionUUID->"768e9746-0ca8-4435-8557-af90e381320b"],
+Cell[CellGroupData[{
+Cell[106275, 2168, 404, 10, 30, "Input",ExpressionUUID->"d536d946-4dee-4c12-91ce-585f6523cbd2"],
+Cell[106682, 2180, 11518, 305, 226, "Output",ExpressionUUID->"f453499a-5f05-4c1a-8bca-44321c980a78"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[118237, 2490, 298, 7, 30, "Input",ExpressionUUID->"2f239d45-f459-40a5-a3cf-fd30b2763901"],
+Cell[118538, 2499, 234, 4, 36, "Output",ExpressionUUID->"c7e5957b-51ce-4ff0-998b-752ad0f4fe31"]
+}, Open  ]],
+Cell[118787, 2506, 257, 4, 32, "Item",ExpressionUUID->"bb202cd7-9101-4272-9eab-8091ee3e8569"],
+Cell[CellGroupData[{
+Cell[119069, 2514, 394, 8, 30, "Input",ExpressionUUID->"a7c94ad7-65d1-40ea-9db7-67b5b6e089be"],
+Cell[119466, 2524, 5386, 113, 73, "Output",ExpressionUUID->"ebe79151-72bd-4931-b34a-fe1f3e999991"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[124889, 2642, 187, 3, 30, "Input",ExpressionUUID->"0db18b46-1f74-4655-8d3e-4b25c55e06ae"],
+Cell[125079, 2647, 987, 23, 81, "Output",ExpressionUUID->"96f392b6-7d40-4422-99a6-838db02acdaf"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[126103, 2675, 259, 4, 30, "Input",ExpressionUUID->"e5571a22-1585-44d0-b9dc-05f2acc1f15b"],
+Cell[126365, 2681, 966, 23, 81, "Output",ExpressionUUID->"09c3e568-21bd-4892-892d-ace2ab047645"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[127368, 2709, 1099, 22, 97, "Input",ExpressionUUID->"72743260-01ef-449b-af0e-89cc10138b7f"],
+Cell[128470, 2733, 27725, 578, 268, "Output",ExpressionUUID->"c8405779-2623-4bb4-beac-8b38a566b818"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[156232, 3316, 602, 14, 53, "Input",ExpressionUUID->"08eef0df-a910-4249-8927-4b0d4ac3b64b"],
+Cell[156837, 3332, 1096, 27, 81, "Output",ExpressionUUID->"c99eb6e4-93f3-4fbe-a735-362f9a7126dc"],
+Cell[157936, 3361, 1277, 37, 133, "Output",ExpressionUUID->"665f71f3-cdd5-4222-9d18-e6f97e38edf8"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[159250, 3403, 312, 5, 30, "Input",ExpressionUUID->"8b1d2013-df5f-487e-84e1-a94cf344554b"],
+Cell[159565, 3410, 5220, 110, 60, "Output",ExpressionUUID->"8fc44083-a17f-45ee-986f-ba856cc595bf"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[164822, 3525, 253, 4, 30, "Input",ExpressionUUID->"dda0533d-8d4b-458f-ad3a-1d1be9451795"],
+Cell[165078, 3531, 847, 19, 81, "Output",ExpressionUUID->"575e8f8e-5f29-45e5-8c6f-f8c06d589480"]
+}, Open  ]],
+Cell[165940, 3553, 154, 3, 32, "Item",ExpressionUUID->"1d44716b-36c0-4d8f-89ee-034d6e97b721"],
+Cell[CellGroupData[{
+Cell[166119, 3560, 249, 4, 30, "Input",ExpressionUUID->"d88d3aee-a478-4b0e-bcc4-674c41cd56a8"],
+Cell[166371, 3566, 4443, 90, 62, "Output",ExpressionUUID->"f20e9779-f521-414d-9514-fac6b590e15a"]
+}, Open  ]],
+Cell[170829, 3659, 159, 3, 35, "Text",ExpressionUUID->"fd5c8f62-568d-4516-a55e-fffe52c76a40"],
+Cell[170991, 3664, 212, 3, 30, "Input",ExpressionUUID->"f7b893b9-5d0c-4bb6-8b37-e46e50fd2893"],
+Cell[171206, 3669, 193, 3, 35, "Text",ExpressionUUID->"424e488b-9780-40c1-8508-db73162d5ed0"],
+Cell[CellGroupData[{
+Cell[171424, 3676, 187, 3, 30, "Input",ExpressionUUID->"cb572057-5dc2-4f99-8129-153d521bfb17"],
+Cell[171614, 3681, 4372, 88, 62, "Output",ExpressionUUID->"11e6325d-aa6d-44dc-a11a-0cf46fa30fdb"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[176023, 3774, 169, 3, 45, "Subsubsection",ExpressionUUID->"eba9c5b0-7a07-406b-8f30-188e8a57dd3d"],
+Cell[CellGroupData[{
+Cell[176217, 3781, 212, 3, 30, "Input",ExpressionUUID->"52f8f9ae-3fd7-4037-9330-1a401f68d6a9"],
+Cell[176432, 3786, 208, 3, 34, "Output",ExpressionUUID->"8ae57648-9865-4720-bc3f-3a538dfdae43"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

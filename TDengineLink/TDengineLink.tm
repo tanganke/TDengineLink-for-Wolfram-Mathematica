@@ -61,7 +61,7 @@
 :ArgumentTypes: {}
 :ReturnType: Manual
 :End:
-:Evaluate: TDengineServerInfo::usage = "TDengineClientInfo[]] returns information of the client."
+:Evaluate: TDengineClientInfo::usage = "TDengineClientInfo[]] returns information of the client."
 
 :Evaluate: EndPackage[]
 
